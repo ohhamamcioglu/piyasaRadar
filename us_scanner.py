@@ -533,6 +533,13 @@ def scan_us_market():
         json.dump(final_output, f, ensure_ascii=False, indent=4)
         print(f"Latest data updated: midas_all_data.json")
     
+    # Update file index for frontend
+    try:
+        from shared_utils import update_file_list
+        update_file_list()
+    except Exception as e:
+        print(f"Error updating file index: {e}")
+    
     print(f"Total US stocks processed: {len(results)}")
 
 if __name__ == "__main__":

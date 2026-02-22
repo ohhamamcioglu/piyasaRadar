@@ -106,6 +106,13 @@ def monitor_kap(once=False):
                     with open(latest_file, 'w', encoding='utf-8') as f:
                         json.dump(history[:5], f, ensure_ascii=False, indent=4)
                     
+                    # Update file index for frontend
+                    try:
+                        from shared_utils import update_file_list
+                        update_file_list()
+                    except Exception as e:
+                        print(f"Error updating file index: {e}")
+                    
                     print(f"Updated KAP snapshots with {len(new_items)} new items.")
             else:
                 print(f"KAP API Error: {resp.status_code}")

@@ -42,6 +42,6 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add bist_all_data.json midas_all_data.json kap_history.json latest_kap.json history/
+          git add bist_all_data.json midas_all_data.json kap_history.json latest_kap.json file-list.json history/
           git commit -m "chore: automated market sync [skip ci]" || echo "No changes to commit"
           git push
