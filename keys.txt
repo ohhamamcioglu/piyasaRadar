@@ -1,0 +1,411 @@
+--- BS ---
+VARLIKLAR
+DÖNEN VARLIKLAR
+Nakit ve Nakit Benzerleri
+Finansal Yatırımlar
+- Gerçeğe Uygun Değeri Kar/Zarara Yansıtılan Finansal Varlıklar
+- Alım Satım Amaçlı Türev Finansal Varlıklar
+Ticari Alacaklar
+İlişkili Taraflardan Ticari Alacaklar
+- İlişkili Olmayan Taraflardan Ticari Alacaklar
+Finans Sektörü Faaliyetlerinden Alacaklar
+- Finans Sektörü Faaliyetleri İlişkili Taraflardan Alacaklar
+- Finans Sektörü Faaliyetlerinden İlişkili Olmayan Taraflardan Alacaklar
+Diğer Alacaklar
+- İlişkili Taraflardan Diğer Alacaklar
+- İlişkili Olmayan Taraflardan Diğer Alacaklar
+Türev Araçlar
+Stoklar
+Canlı Varlıklar
+Peşin Ödenmiş Giderler
+İlişkili Taraflara Peşin Ödenmiş Giderler
+Cari Dönem Vergisiyle İlgili Varlıklar
+Diğer Dönen Varlıklar
+ARA TOPLAM
+Satış Amaçlı Sınıflandırılan Duran Varlıklar
+DURAN VARLIKLAR
+Finansal Yatırımlar
+Ticari Alacaklar
+- İlişkili Taraflardan Ticari Alacaklar
+- İlişkili Olmayan Taraflardan Ticari Alacaklar
+Finans Sektörü Faaliyetlerinden Alacaklar
+- Finans Sektörü Faaliyetleri İlişkili Taraflardan Alacaklar
+- Finans Sektörü Faaliyetlerinden İlişkili Olmayan Taraflardan Alacaklar
+Diğer Alacaklar
+- İlişkili Taraflardan Diğer Alacaklar
+- İlişkili Olmayan Taraflardan Diğer Alacaklar
+Türev Araçlar
+Stoklar
+Özkaynak Yöntemiyle Değerlenen Yatırımlar
+Canlı Varlıklar
+Yatırım Amaçlı Gayrimenkuller
+Maddi Duran Varlıklar
+Diğer Maddi Duran Varlıklar
+Maddi Olmayan Duran Varlıklar
+- Şerefiye
+-Bilgisayar Yazılımları
+- Diğer Maddi Olmayan Duran Varlıklar
+Peşin Ödenmiş Giderler
+- İlişkili Taraflara Peşin Ödenmiş Giderler
+İlişkili Olmayan Taraflara Peşin Ödenmiş Giderler
+Ertelenmiş Vergi Varlığı
+Diğer Duran Varlıklar
+TOPLAM VARLIKLAR
+K  A  Y  N  A  K  L  A  R
+KISA VADELİ YÜKÜMLÜLÜKLER
+Kısa Vadeli Borçlanmalar
+- Banka Kredileri
+Uzun Vadeli Borçlanmaların Kısa Vadeli Kısımları
+- Finansal Kiralama İşlemlerinden Borçlar
+Banka Kredileri
+Diğer Finansal Yükümlülükler
+Ticari Borçlar
+- İlişkili Taraflara Ticari Borçlar
+- İlişkili Olmayan Taraflara Ticari Borçlar
+Finans Sektörü Faaliyetlerinden Borçlar
+- Finans Sektörü Faaliyetleri İlişkili Taraflara Borçlar
+- Finans Sektörü Faaliyetlerinden İlişkili Olmayan Taraflara Borçlar
+Çalışanlara Sağlanan Faydalar Kapsamında Borçlar
+Diğer Borçlar
+- İlişkili Taraflara Diğer Borçlar
+- İlişkili Olmayan Taraflara Diğer Borçlar
+Türev Araçlar
+Devlet Teşvik ve Yardımları
+Ertelenmiş Gelirler
+Dönem Karı Vergi Yükümlülüğü
+Kısa Vadeli Karşılıklar
+- Çalışanlara Sağlanan Faydalara İlişkin Kısa Vadeli Karşılıklar
+- Diğer Kısa Vadeli Karşılıklar
+Diğer Kısa Vadeli Yükümlülükler
+ARA TOPLAM
+Satış Amaçlı Sınıflandırılan Varlık Gruplarına İlişkin Yükümlülükler
+UZUN VADELİ YÜKÜMLÜLÜKLER
+Uzun Vadeli Borçlanmalar
+Banka Kredileri
+Diğer Finansal Yükümlülükler
+Finansal Kiralama İşlemlerinden Borçlar
+Ticari Borçlar
+- İlişkili Taraflara Ticari Borçlar
+- İlişkili Olmayan Taraflara Ticari Borçlar
+Finans Sektörü Faaliyetlerinden Borçlar
+- Finans Sektörü Faaliyetlerinden İlişkili Taraflara Borçlar
+- Finans Sektörü Faaliyetlerinden İlişkili Olmayan Taraflara Borçlar
+Diğer Borçlar
+- İlişkili Taraflara Diğer Borçlar
+- İlişkili Olmayan Taraflara Diğer Borçlar
+Türev Araçlar
+Devlet Teşvik ve Yardımları
+Ertelenmiş Gelirler
+Uzun Vadeli Karşılıklar
+- Çalışanlara Sağlanan Faydalara İlişkin Uzun Vadeli Karşılıklar
+- Diğer Uzun Vadeli Karşılıklar
+Cari Dönem Vergisiyle İlgili Borçlar
+Ertelenmiş Vergi Yükümlülüğü
+Diğer Uzun Vadeli Yükümlülükler
+TOPLAM YÜKÜMLÜLÜKLER
+Ö Z K A Y N A K L A R
+ANA ORTAKLIĞA AİT ÖZKAYNAKLAR
+Ödenmiş Sermaye
+Ortak Kontrole Tabi Teşebbüs veya İşletmeleri İçeren Birleşmelerin Etkisi (-)
+Sermaye Düzeltme Farkları
+Geri Alınmış Paylar (-)
+Karşılıklı İştirak Sermaye Düzeltmesi (-)
+Paylara İlişkin Primler/İskontolar
+Kar veya Zararda Yeniden Sınıflandırılmayacak Birikmiş Diğer Kapsamlı Gelirler veya Giderler
+- Yeniden Değerleme ve Ölçüm Kazanç/Kayıpları
+- Tanımlanmış fayda planları yeniden ölçüm kazanç/(kayıpları)
+- Yabancı Para Çevirim Farkları
+- Diğer Kazanç/Kayıplar
+Kar veya Zararda Yeniden Sınıflandırılacak Birikmiş Diğer Kapsamlı Gelirler veya Giderler
+- Yabancı Para Çevirim Farkları
+- Riskten Korunma Kazanç/Kayıpları
+- Yeniden Değerleme ve Sınıflandırma Kazanç/Kayıpları
+- Diğer Kazanç/Kayıplar
+Kardan Ayrılan Kısıtlanmış Yedekler
+Geçmiş Yıllar Karları/Zararları
+Net Dönem Karı/Zararı
+Diğer Yedekler
+KONTROL GÜCÜ OLMAYAN PAYLAR
+TOPLAM KAYNAKLAR
+
+--- IS ---
+KAR VEYA ZARAR KISMI
+Hasılat
+Satışların Maliyeti (-)
+Ticari Faaliyetlerden Brüt Kar (Zarar)
+Finans Sektörü Faaliyetleri Hasılatı
+Finans Sektörü Faaliyetleri Maliyeti (-)
+Finans Sektörü Faaliyetlerinden Brüt Kar (Zarar)
+BRÜT KAR/ZARAR
+Genel Yönetim Giderleri (-)
+Pazarlama Giderleri (-)
+Araştırma ve Geliştirme Giderleri (-)
+Esas Faaliyetlerden Diğer Gelirler
+Esas Faaliyetlerden Diğer Giderler (-)
+ESAS FAALİYET KARI/ZARARI
+Yatırım Faaliyetlerinden Gelirler
+Yatırım Faaliyetlerinden Giderler (-)
+Özkaynak Yöntemiyle Değerlenen Yatırımların Karlarından/Zararlarından Paylar
+FİNANSMAN GİDERİ ÖNCESİ FAALİYET KARI/ZARARI
+Finansman gelirleri
+Finansman Giderleri (-)
+SÜRDÜRÜLEN FAALİYETLER VERGİ ÖNCESİ KARI/ZARARI
+Sürdürülen Faaliyetler Vergi Gideri/Geliri
+- Dönem Vergi Gideri (-)/Geliri
+- Ertelenmiş Vergi Gideri (-)/Geliri
+SÜRDÜRÜLEN FAALİYETLER DÖNEM KARI/ZARARI
+DURDURULAN FAALİYETLER DÖNEM KARI/ZARARI
+DÖNEM KARI/ZARARI
+Dönem Karı/Zararının Dağılımı
+- Kontrol Gücü Olmayan Paylar
+- Ana Ortaklık Payları
+Pay Başına Kazanç
+- Sürdürülen Faaliyetlerden Pay Başına Kazanç
+- Durdurulan Faaliyetlerden Pay Başına Kazanç
+Sulandırılmış Pay Başına Kazanç
+- Sürdürülen Faaliyetlerden Sulandırılmış Pay Başına Kazanç
+- Durdurulan Faaliyetlerden Sulandırılmış Pay Başına Kazanç
+DİĞER KAPSAMLI GELİRLER
+Kar veya Zararda Yeniden Sınıflandırılmayacaklar
+Maddi Duran Varlıklar Yeniden Değerleme Artışları/Azalışları
+Maddi Olmayan Duran Varlıklar Yeniden Değerleme Artışları/Azalışları
+Tanımlanmış Fayda Planları Yeniden Ölçüm Kazançları/Kayıpları
+Özkaynak Yöntemiyle Değerlenen Yatırımların Diğer Kapsamlı Gelirinden Kar/Zararda Sınıflandırılmayacak Paylar
+Diğer Kar veya Zarar Olarak Yeniden Sınıflandırılmayacak Diğer Kapsamlı Gelir Unsurları
+Kar veya Zararda Yeniden Sınıflandırılmayacak Diğer Kapsamlı Gelire İlişkin Vergiler
+Tanımlanmış Fayda Planları Yeniden Ölçüm Kazançları/Kayıpları Vergi Etkisi
+- Dönem Vergi Gideri (-)/Geliri
+- Ertelenmiş Vergi Gideri (-)/Geliri
+Kar veya Zarar Olarak Yeniden Sınıflandırılacaklar
+Yabancı Para Çevirim Farkları
+Satılmaya Hazır Finansal Varlıkların Yeniden Değerleme ve/veya Sınıflandırma Kazançları/Kayıpları
+Nakit Akış Riskinden Korunma Kazançları/Kayıpları
+Yurtdışındaki İşletmeye İlişkin Yatırım Riskinden Korunma Kazançları/Kayıpları
+Özkaynak Yöntemiyle Değerlenen Yatırımların Diğer Kapsamlı Gelirinden Kar/Zararda Sınıflandırılacak Paylar
+Diğer Kar veya Zarar Olarak Yeniden Sınıflandırılacak Diğer Kapsamlı Gelir Unsurları
+Kar veya Zararda Yeniden Sınıflandırılacak Diğer Kapsamlı Gelire İlişkin Vergiler Gelir/Giderleri
+- Dönem Vergi Gideri (-)/Geliri
+- Ertelenmiş Vergi Gideri (-)/Geliri
+DİĞER KAPSAMLI GELİR
+TOPLAM KAPSAMLI GELİR
+Toplam Kapsamlı Gelirin Dağılımı:
+- Kontrol Gücü Olmayan Paylar
+- Ana Ortaklık Payları
+DURDURULAN FAALİYETLERDEN GİDERLER (-)
+Satış Amaçlı Elde Tutulan Duran Varlık Giderleri
+Bağlı Ortaklık, İştirak ve İş Ortaklıkları Satış Zararları
+Diğer Durdurulan Faaliyet Giderleri
+DURDURULAN FAALİYETLER VERGİ ÖNCESİ K/Z
+DURDURULAN FAALİYETLER VERGİ KARŞILIĞI (+-)
+Cari Vergi Karşılığı
+Ertelenmiş Vergi Gider Etkisi (+)
+Ertelenmiş Vergi Gelir Etkisi (-)
+DURDURULAN FAALİYETLER DÖNEM NET K/Z
+ANA ORTAKLIK DIŞI (KAR) / ZARAR
+NET DÖNEM KARI/ZARARI
+Hisse Başına Kar/Zarar (1 TL nominal değerli beher pay için TL olarak)
+Hisse Başına Kar/Zarar (1 TL nominal değerli beher pay için TL olarak)
+
+--- CF ---
+Stoklardaki Azalışlar (Artışlar) İle İlgili Düzeltmeler
+Ticari Alacaklardaki Azalış (Artış) ile İlgili Düzeltmeler
+Amortisman ve İtfa Gideri İle İlgili Düzeltmeler
+Gerçeğe Uygun Değer Kayıpları (Kazançları) İle İlgili Düzeltmeler
+Şerefiye Değer Düşüklüğü  ile İlgili Düzeltmeler
+Değer Düşüklüğü (İptali) İle İlgili Düzeltmeler 
+Stok Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler
+Alacaklarda Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler
+Vergi (Geliri) Gideri İle İlgili Düzeltmeler 
+Ertelenmiş Gelirlerdeki Artış (Azalış) 
+Çalışanlara Sağlanan Faydalar Kapsamında Borçlardaki Artış (Azalış)
+Faaliyetler ile İlgili Diğer Borçlardaki Artış (Azalış) ile İlgili Düzeltmeler
+Ticari Borçlardaki Artış (Azalış) ile İlgili Düzeltmeler
+Faiz Giderleri ile İlgili Düzeltmeler
+Faiz Gelirleri ile İlgili Düzeltmeler
+Duran Varlıkların Elden Çıkarılmasından Kaynaklanan Kayıplar (Kazançlar) İle İlgili Düzeltmeler
+Karşılıklar İle İlgili Düzeltmeler
+Dönem Net Karı (Zararı) Mutabakatı İle İlgili Düzeltmeler  
+Pay Bazlı Ödemeler İle İlgili Düzeltmeler
+İştiraklerin Dağıtılmamış Karları İle İlgili Düzeltmeler
+Özkaynak Yöntemiyle Değerlenen Yatırımların Dağıtılmamış Karları ile İlgili Düzeltmeler
+Gerçekleşmemiş Yabancı Para Çevrim Farkları İle İlgili Düzeltmeler
+Verilen Nakit Avans ve Borçlar
+Bağlı Ortaklıkların Kontrolünün Kaybı Sonucunu Doğuracak Satışlara İlişkin Nakit Girişleri 
+FİNANSMAN FAALİYETLERİNDEN NAKİT AKIŞLARI 
+YATIRIM FAALİYETLERİNDEN KAYNAKLANAN NAKİT AKIŞLARI   
+İŞLETME FAALİYETLERİNDEN NAKİT AKIŞLARI  
+Faaliyetlerden Elde Edilen Nakit Akışları
+Bağlı Ortaklıkların Kontrolünün Elde Edilmesine Yönelik Alışlara İlişkin Nakit Çıkışları
+Türev Araçlardan Nakit Çıkışları 
+Türev Araçlardan Nakit Girişleri 
+Verilen Nakit Avans ve Borçlardan Geri Ödemeler 
+Ödenen Temettüler (Finansal)
+Ödenen Temettüler  (Operasyonel)
+Alınan Temettüler (Yatırımlar)
+Alınan Temettüler (Operasyonel)
+Yabancı Para Çevrim Farklarının Nakit ve Nakit Benzerleri Üzerindeki Etkisi
+Vergi İadeleri (Ödemeleri) (Finansal)
+Vergi İadeleri (Ödemeleri) (Yatırım)
+Vergi İadeleri (Ödemeleri) (Operasyonel)
+NAKİT VE NAKİT BENZERLERİNDEKİ NET ARTIŞ (AZALIŞ)
+YABANCI PARA ÇEVRİM FARKLARININ ETKİSİNDEN ÖNCE NAKİT VE NAKİT BENZERLERİNDEKİ NET ARTIŞ (AZALIŞ)  
+İşletme Sermayesinde Gerçekleşen Değişimler
+Ödenen Faiz (Finansal)
+Ödenen Faiz (Yatırım)
+Ödenen Faiz (Operasyonel)
+Alınan Faiz (Yatırım)
+Alınan Faiz (Operasyonel)
+Nakit Dışı Kalemlere İlişkin Diğer Düzeltmeler
+Yatırım ya da Finansman Faaliyetlerinden Kaynaklanan Nakit Akışlarına Neden Olan Diğer Kalemlere İlişkin Düzeltmeler
+Kar (Zarar) Mutabakatı İle İlgili Diğer Düzeltmeler
+Başka İşletmelerin  veya Fonların Paylarının veya Borçlanma Araçlarının Edinimi İçin Yapılan  Nakit Çıkışları
+Başka İşletmelerin veya Fonların Paylarının veya Borçlanma Araçlarının Satılması Sonucu Elde Edilen Nakit Girişleri
+Diğer Nakit Girişleri (Çıkışları) (Finansal)
+Diğer Nakit Girişleri (Çıkışları) (Yatırım)
+Diğer Nakit Girişleri (Çıkışları) (Operasyonel)
+Bağlı Ortaklıklardaki Kontrolün Kaybına Yol Açmayan Şekilde Ortaklık Payları Değişmelerinden Kaynaklanan Nakit Çıkışları 
+Finansal Kiralama Sözleşmelerinden Kaynaklanan Borç Ödemelerine İlişkin Nakit Çıkışları
+Borçlanmadan Kaynaklanan Nakit Girişleri 
+Bağlı Ortaklıklardaki Kontrolün Kaybına Yol Açmayan Şekilde Ortaklık Payları Değişmelerinden Kaynaklanan Nakit Girişleri
+Devlet Teşviklerinden Elde Edilen Nakit Girişleri (Finansal)
+Devlet Teşviklerinden Elde Edilen Nakit Girişleri (Yatırım)
+Diğer Özkaynağa Dayalı Araçların İhracından Kaynaklanan Nakit Girişleri
+Pay İhracından Kaynaklanan Nakit Girişleri
+Diğer Uzun Vadeli Varlıkların Satışından Kaynaklanan Nakit Girişleri
+Maddi Olmayan Duran Varlıkların Satışından Kaynaklanan Nakit Girişleri 
+Maddi Duran Varlıkların Satışından Kaynaklanan Nakit Girişleri 
+Maddi Olmayan Duran Varlık Alımından Kaynaklanan Nakit Çıkışları 
+Diğer Uzun Vadeli Varlık Alımından Kaynaklanan Nakit Çıkışları 
+Maddi Duran Varlık Alımından Kaynaklanan Nakit Çıkışları 
+Borç Ödemelerine İlişkin Nakit Çıkışları 
+Pazarlıklı Satın Alım Sonucu Oluşan Kazanç  ile İlgili Düzeltmeler 
+Faaliyetlerle İlgili Diğer Alacaklardaki Azalış (Artış) ile İlgili Düzeltmeler 
+Kar Payı (Geliri) Gideri ile İlgili Düzeltmeler 
+Türev Finansal Araçların Gerçeğe Uygun Değer Kayıpları (Kazançları) ile İlgili Düzeltmeler 
+Canlı Varlıklar veya Tarımsal Ürünlerin Gerçeğe Uygun Değer Kayıpları (Kazançları) ile İlgili Düzeltmeler 
+Finansal Varlıkların  Gerçeğe Uygun Değer Kayıpları (Kazançları) ile İlgili Düzeltmeler 
+Yatırım Amaçlı Gayrimenkullerin  Gerçeğe Uygun Değer Kayıpları (Kazançları) ile İlgili Düzeltmeler 
+İhraç Edilmiş Finansal Araçların Gerçeğe Uygun Değer Kayıpları (Kazançları)  ile İlgili Düzeltmeler  
+Muhtemel Riskler için  Ayrılan Serbest Karşılıklar (İptali) ile İlgili Düzeltmeler
+Canlı Varlıklar Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler
+Yatırım Amaçlı Gayrimenkul Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler 
+Satış Amaçlı Duran Varlıklar Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler 
+Diğer Finansal Varlıklar veya Yatırımlar Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler
+Diğer Maddi Olmayan Duran Varlık Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler 
+Maddi  Duran Varlık Değer Düşüklüğü (İptali) ile İlgili Düzeltmeler 
+Devlet Teşviklerinden Elde Edilen Gelirler ile İlgili Düzeltmeler
+İştirak, İş ortaklığı  ve Finansal Yatırımların Elden Çıkarılmasından veya Paylarındaki Değişim Sebebi ile Oluşan Kayıplar (Kazançlar) ile İlgili Düzeltmeler
+Faiz (Gelirleri) ve Giderleri İle İlgili Düzeltmeler
+Canlı Varlıkların Elden Çıkarılmasından Kaynaklanan Kayıplar (Kazançlar) ile İlgili Düzeltmeler
+Maddi Olmayan Duran Varlıkların Elden Çıkarılmasından Kaynaklanan Kayıplar (Kazançlar) ile İlgili Düzeltmeler 
+Yatırım Amaçlı Gayrimenkullerin Elden Çıkarılmasından Kaynaklanan Kayıplar (Kazançlar) ile İlgili Düzeltmeler 
+Satış Amaçlı veya Ortaklara  Dağıtılmak Üzere Elde Tutulan Duran Varlıkların Elden Çıkarılmasından Kaynaklanan Kayıplar (Kazançlar) ile İlgili Düzeltmeler
+Diğer Duran Varlıkların Elden Çıkarılmasından Kaynaklanan Kayıplar (Kazançlar) ile İlgili Düzeltmeler 
+Maddi Duran Varlıkların Elden Çıkarılmasından Kaynaklanan Kayıplar (Kazançlar) ile İlgili Düzeltmeler 
+Bağlı Ortaklıkların veya Müşterek Faaliyetlerin Elden Çıkarılmasından Kaynaklanan Kayıplar (Kazançlar) ile İlgili Düzeltmeler
+Takas İşlemlerinden Kaynaklanan Kayıplar (Kazançlar) ile İlgili Düzeltmeler
+Hibe Krediler ile İlgili Düzeltmeler 
+İşletme Sermayesinde Gerçekleşen Diğer Artış (Azalış) ile İlgili Düzeltmeler  
+Katılım (Kar) Payı ve Diğer Finansal Araçlardan (Gelirler) Giderler ile İlgili Düzeltmeler 
+Genel Karşılıklar (İptali) ile İlgili Düzeltmeler 
+Dava ve/veya Ceza Karşılıkları (İptali) ile İlgili Düzeltmeler 
+Diğer Karşılıklar (İptalleri) ile İlgili Düzeltmeler 
+Sektörel Gereksinimler Çerçevesinde Ayrılan Karşılıklar (İptali) ile İlgili Düzeltmeler 
+Çalışanlara Sağlanan Faydalara İlişkin Karşılıklar (İptali) ile İlgili Düzeltmeler 
+Yeniden Yapılanma Karşılıkları (İptali) ile İlgili Düzeltmeler 
+Garanti Karşılıkları (İptali) ile İlgili Düzeltmeler 
+Devam  Eden İnşaat, Taahhüt veya Hizmet Sözleşmelerine İlişkin Tamamlanma Derecesi Yöntemi ile İlgili  Düzeltmeler 
+İş Ortaklıklarının Dağıtılmamış Karları ile İlgili Düzeltmeler
+İlişkili Taraflara Verilen Nakit Avans ve Borçlar 
+DÖNEM BAŞI NAKİT VE NAKİT BENZERLERİ
+Durdurulan Faaliyetlere İlişkin Net Nakit Akışları (Yatırım)
+Durdurulan Faaliyetlere İlişkin Net Nakit Akışları (Operasyonel)
+Durdurulan Faaliyetlere İlişkin Net Nakit Akışları (Finansal)
+İştiraklerin ve/veya İş Ortaklıklarının Pay Satışı veya Sermaye Azaltımı Sebebiyle Oluşan Nakit Girişleri
+Karşılıklı İştirak Paylarındaki Değişimden Kaynaklanan Nakit Girişleri 
+Katılım (Kar) Payı ve Diğer Finansal Araçlardan Nakit Girişleri (Finansal)
+Katılım (Kar) Payı ve Diğer Finansal Araçlardan Nakit Girişleri  (Yatırım)
+Katılım (Kar) Payı ve Diğer Finansal Araçlardan Nakit Girişleri (Operasyonel)
+İşletmenin Aldığı Diğer Özkaynağa Dayalı Araçlarını Satmasından Kaynaklanan Nakit Girişleri 
+Geri Alınan Payların Satışından Kaynaklanan Nakit Girişleri 
+İşletmenin Kendi Paylarını ve Diğer Özkaynağa Dayalı Araçlarını Satmasından Kaynaklanan Nakit Girişleri 
+Canlı Varlık Satışından Kaynaklanan Nakit Girişleri
+Yatırım Amaçlı Gayrimenkul Satımından Kaynaklanan Nakit Girişleri 
+Bağlı Ortaklıkların Kontrolünün Kaybı Sonucunu Doğurmayan Satışlara İlişkin Nakit Girişleri
+Satış Amacıyla Elde Tutulan Duran Varlık Satışlarından Kaynaklanan Nakit Girişleri  
+Ortak Kontrole Tabi İşletmelerin Birleşme Etkisinden Kaynaklanan Nakit Girişleri (Çıkışları) 
+Faktoring İşlemlerinden Nakit Çıkışları 
+Diğer Finansal Borç Ödemelerinden Nakit Çıkışları
+İştirakler ve/veya İş Ortaklıkları  Sermaye Avansı Ödemelerinden Nakit Çıkışları
+İştiraklar ve/veya İş Ortaklıkları Pay Alımı veya Sermaye Artırımı Sebebiyle Oluşan Nakit Çıkışları
+İştirakler, İş Ortaklıkları ve/veya Müşterek Faaliyetlerin Sermaye Artırımına Katılımdan Kaynaklanan Nakit Çıkışları
+Karşılıklı İştirak Paylarındaki Değişimden Kaynaklanan Nakit Çıkışları 
+Başka İşletmelerin veya Fonların Paylarının veya Borçlanma Araçlarının Edinimi İçin Yapılan Nakit Çıkışları 
+Yatırım Amaçlı Gayrimenkul Alımından Kaynaklanan Nakit Çıkışları 
+Katılım (Kar) Payı ve Diğer Finansal Araçlardan Nakit Çıkışları (Finansal)
+Katılım (Kar) Payı ve Diğer Finansal Araçlardan Nakit Çıkışları (Yatırım)
+Katılım (Kar) Payı ve Diğer Finansal Araçlardan Nakit Çıkışları (Operasyonel)
+Bağlı Ortaklıklarda İlave Pay  Alımlarına ilişkin Nakit Çıkışları
+Canlı Varlık Alımından Kaynaklanan Nakit Çıkışları 
+Satış Amacıyla Elde Tutulan Duran Varlık Alımlarından Nakit Çıkışları 
+Türev Araçlardan Nakit Çıkışları 
+Türev Araçlardan Nakit Girişleri 
+Canlı Varlıklardaki Azalış (Artış)  
+Türev Varlıklardaki Azalış (Artış)  
+İmtiyaz Sözleşmelerine İlişkin Finansal Varlıklardaki Azalış (Artış)  
+Finansal Yatırımlardaki  Azalış (Artış)  
+Finans Sektörü Faaliyetlerinden Alacaklarda Azalış (Artış) 
+Faaliyetlerle İlgili Diğer Varlıklardaki Azalış (Artış)  
+İlişkili Taraflardan Faaliyetlerle İlgili Diğer Alacaklardaki Azalış (Artış)  
+İlişkili Olmayan Taraflardan Faaliyetlerle İlgili Diğer Alacaklardaki Azalış (Artış) 
+Peşin Ödenmiş Giderlerdeki Azalış (Artış) 
+Devam Eden İnşaat, Taahhüt veya Hizmet Sözleşmelerinden Alacaklardaki Azalış (Artış)
+Türkiye Cumhuriyet Merkez Bankası Hesabındaki Azalış (Artış)  
+İlişkili Taraflardan Ticari Alacaklardaki Azalış (Artış) 
+İlişkili Olmayan Taraflardan Ticari Alacaklardaki Azalış (Artış) 
+İlişkili Taraflardan  Alınan Diğer Borçlardaki Azalış 
+Vadeli Alımlardan Kaynaklanan Ertelenmiş Finansman Gideri 
+Türev Yükümlülüklerdeki Artış (Azalış)  
+Devlet Teşvik ve Yardımlarındaki Artış (Azalış)  
+İlişkili Taraflara Faaliyetlerle İlgili Diğer Borçlardaki Artış (Azalış)  
+İlişkili Olmayan Taraflara Faaliyetlerle İlgili Diğer Borçlardaki Artış (Azalış)  
+Faaliyetlerle İlgili Diğer Yükümlülüklerdeki Artış (Azalış)  
+Devam Eden İnşaat, Taahhüt veya Hizmet Sözleşmelerine İlişkin Borçlardaki Artış (Azalış)  
+Finans Sektörü Faaliyetlerinden Borçlardaki Artış (Azalış)
+İlişkili Taraflara Ticari Borçlardaki Artış (Azalış)  
+İlişkili Olmayan Taraflara Ticari Borçlardaki Artış (Azalış)  
+İlişkili Taraflardan Alınan Diğer Borçlardaki Artış  
+Alınan Faiz 
+Kredi Geri Ödemelerine İlişkin Nakit Çıkışları  
+Gerçeğe Uygun Değer Kayıpları (Kazançları) ile İlgili Diğer Düzeltmeler 
+Diğer Değer Düşüklükleri (İptalleri) ile İlgili Düzeltmeler 
+Verilen Diğer Nakit Avans ve Borçlar 
+İlişkili Taraflara Verilen Nakit Avans ve Borçlardan Geri Ödemeler 
+Diğer Verilen Nakit Avans ve Borçlardan Geri Ödemeler 
+İhraç Edilmiş Borçlanma Araçları Geri Ödemelerinden Nakit Çıkışları
+Diğer Karşılıklara İlişkin Ödemeler
+Çalışanlara Sağlanan Faydalara İlişkin Karşılıklar Kapsamında Yapılan Ödemeler
+İşletmenin Diğer Özkaynağa Dayalı Araçlarını Almasından Kaynaklanan Nakit Çıkışları
+İşletmenin Kendi Paylarını Almasından Kaynaklanan Nakit Çıkışları
+İşletmenin Kendi Paylarını ve Diğer Özkaynağa Dayalı Araçlarını Almasıyla İlgili Nakit Çıkışları 
+Sermaye Avanslarından Nakit Girişleri 
+Faktoring İşlemlerinden Nakit Girişleri 
+İhraç Edilen Borçlanma Araçlarından Nakit Girişleri 
+Pay ve Diğer Özkaynağa Dayalı Araçların İhracından Kaynaklanan Nakit Girişleri 
+Kredilerden Nakit Girişleri
+Diğer Finansal Borçlanmalardan Nakit Girişleri
+Başka İşletmelerin veya Fonların Paylarının veya Borçlanma Araçlarının Satılması Sonucu Elde Edilen Nakit Girişleri 
+Maddi ve Maddi Olmayan Duran Varlıkların Satışından Kaynaklanan Nakit Girişleri
+Dönem Karı (Zararı)
+Sürdürülen Faaliyetlerden Dönem Karı (Zararı)
+Durdurulan Faaliyetlerden Dönem Karı (Zararı)
+Maddi ve Maddi Olmayan Duran Varlıkların Alımından Kaynaklanan Nakit Çıkışları
+Kira Ödemeleri 
+Alınan Kira 
+Vadeli Satışlardan Kaynaklanan Kazanılmamış Finansman Geliri
+Parasal Pozisyon Kazanç ve Kayıplarıyla İlgili Düzeltmeler
+İşletme Faaliyetlerine İlişkin Enflasyon Etkisi
+Yatırım Faaliyetlerine İlişkin Enflasyon Etkisi
+Finansman Faaliyetlerine İlişkin Enflasyon Etkisi
+Enflasyon Etkisi
+NAKİT VE NAKİT BENZERLERİNE İLİŞKİN ENFLASYON ETKİSİ

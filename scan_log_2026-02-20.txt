@@ -1,0 +1,415 @@
+========================================
+Tarama Başladı: Cum 20 Şub 2026 09:14:15 +03
+========================================
+[1/3] BIST Taraması başlıyor...
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ADLVY.IS"}}}
+$ADLVY.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AKCKM.IS"}}}
+$AKCKM.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AKCVR.IS"}}}
+$AKCVR.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AKDFA.IS"}}}
+$AKDFA.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AKFK.IS"}}}
+$AKFK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AKSFA.IS"}}}
+$AKSFA.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: AKTVK.IS"}}}
+$AKTVK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ALJF.IS"}}}
+$ALJF.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ARSVY.IS"}}}
+$ARSVY.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ATAVK.IS"}}}
+$ATAVK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ATLFA.IS"}}}
+$ATLFA.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BLKOM.IS"}}}
+$BLKOM.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BNPPI.IS"}}}
+$BNPPI.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BRGFK.IS"}}}
+$BRGFK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BRKT.IS"}}}
+$BRKT.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BSRFK.IS"}}}
+$BSRFK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: CAGFA.IS"}}}
+$CAGFA.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: CLKMT.IS"}}}
+$CLKMT.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: CMSAN.IS"}}}
+$CMSAN.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DFKTR.IS"}}}
+$DFKTR.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DGRVK.IS"}}}
+$DGRVK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DKVRL.IS"}}}
+$DKVRL.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DMLKT.IS"}}}
+$DMLKT.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DNFIN.IS"}}}
+$DNFIN.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+$DNYVA.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DNZEN.IS"}}}
+$DNZEN.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DOGVY.IS"}}}
+$DOGVY.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DRPHN.IS"}}}
+$DRPHN.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DTRND.IS"}}}
+$DTRND.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DVRLK.IS"}}}
+$DVRLK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DYBNK.IS"}}}
+$DYBNK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ECZIP.IS"}}}
+$ECZIP.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EKER.IS"}}}
+$EKER.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EKOFA.IS"}}}
+$EKOFA.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EKOVR.IS"}}}
+$EKOVR.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EKTVK.IS"}}}
+$EKTVK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EMIRV.IS"}}}
+$EMIRV.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EMVAR.IS"}}}
+$EMVAR.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ERGLI.IS"}}}
+$ERGLI.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FAIRF.IS"}}}
+$FAIRF.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GARFL.IS"}}}
+$GARFL.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GGBVK.IS"}}}
+$GGBVK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GSIPD.IS"}}}
+$GSIPD.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: HALKF.IS"}}}
+$HALKF.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: HAYVK.IS"}}}
+$HAYVK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: HDFFL.IS"}}}
+$HDFFL.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: HDFVK.IS"}}}
+$HDFVK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: HLVKS.IS"}}}
+$HLVKS.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: HUZFA.IS"}}}
+$HUZFA.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: INALR.IS"}}}
+$INALR.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ISFAK.IS"}}}
+$ISFAK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ISTFK.IS"}}}
+$ISTFK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ISTVY.IS"}}}
+$ISTVY.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KATVK.IS"}}}
+$KATVK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KFILO.IS"}}}
+$KFILO.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KLVKS.IS"}}}
+$KLVKS.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KNTFA.IS"}}}
+$KNTFA.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KOCFN.IS"}}}
+$KOCFN.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KORTS.IS"}}}
+$KORTS.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KSFIN.IS"}}}
+$KSFIN.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KTKVK.IS"}}}
+$KTKVK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KTSVK.IS"}}}
+$KTSVK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MBFTR.IS"}}}
+$MBFTR.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MINTF.IS"}}}
+$MINTF.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MNGFA.IS"}}}
+$MNGFA.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MRBKF.IS"}}}
+$MRBKF.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MRMAG.IS"}}}
+$MRMAG.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NURVK.IS"}}}
+$NURVK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: OKTIN.IS"}}}
+$OKTIN.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: OPET.IS"}}}
+$OPET.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ORFIN.IS"}}}
+$ORFIN.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: OTOKC.IS"}}}
+$OTOKC.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: OTOSR.IS"}}}
+$OTOSR.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: PRFFK.IS"}}}
+$PRFFK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: QFINF.IS"}}}
+$QFINF.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: QNBFF.IS"}}}
+$QNBFF.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: QNBVK.IS"}}}
+$QNBVK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: QUFIN.IS"}}}
+$QUFIN.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: QYHOL.IS"}}}
+$QYHOL.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: SARTN.IS"}}}
+$SARTN.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: SMRFA.IS"}}}
+$SMRFA.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: SZUKI.IS"}}}
+$SZUKI.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TAMFA.IS"}}}
+$TAMFA.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TEBFA.IS"}}}
+$TEBFA.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TEVKS.IS"}}}
+$TEVKS.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TFNVK.IS"}}}
+$TFNVK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TIMUR.IS"}}}
+$TIMUR.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TRKFN.IS"}}}
+$TRKFN.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TRKNT.IS"}}}
+$TRKNT.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TRYKI.IS"}}}
+$TRYKI.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TV8TV.IS"}}}
+$TV8TV.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: VAKVK.IS"}}}
+$VAKVK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: VDFAS.IS"}}}
+$VDFAS.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: VDFLO.IS"}}}
+$VDFLO.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+$YKFIN.IS: possibly delisted; no price data found  (period=1y)
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: YKFKT.IS"}}}
+$YKFKT.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZKBVK.IS"}}}
+$ZKBVK.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZKBVR.IS"}}}
+$ZKBVR.IS: possibly delisted; no price data found  (period=1y) (Yahoo error = "No data found, symbol may be delisted")
+Scanning 678 stocks (Including 0 missing new scores)...
+Progress: 10/678 (Checkpoint Saved)
+Progress: 20/678 (Checkpoint Saved)
+Progress: 30/678 (Checkpoint Saved)
+Progress: 40/678 (Checkpoint Saved)
+Progress: 50/678 (Checkpoint Saved)
+Progress: 60/678 (Checkpoint Saved)
+Progress: 70/678 (Checkpoint Saved)
+Progress: 80/678 (Checkpoint Saved)
+Progress: 90/678 (Checkpoint Saved)
+Progress: 100/678 (Checkpoint Saved)
+Progress: 110/678 (Checkpoint Saved)
+Progress: 120/678 (Checkpoint Saved)
+Progress: 130/678 (Checkpoint Saved)
+Progress: 140/678 (Checkpoint Saved)
+Progress: 150/678 (Checkpoint Saved)
+Progress: 160/678 (Checkpoint Saved)
+Progress: 170/678 (Checkpoint Saved)
+Progress: 180/678 (Checkpoint Saved)
+Progress: 190/678 (Checkpoint Saved)
+Progress: 200/678 (Checkpoint Saved)
+Progress: 210/678 (Checkpoint Saved)
+Progress: 220/678 (Checkpoint Saved)
+Progress: 230/678 (Checkpoint Saved)
+Progress: 240/678 (Checkpoint Saved)
+Progress: 250/678 (Checkpoint Saved)
+Progress: 260/678 (Checkpoint Saved)
+Progress: 270/678 (Checkpoint Saved)
+Progress: 280/678 (Checkpoint Saved)
+Progress: 290/678 (Checkpoint Saved)
+Progress: 300/678 (Checkpoint Saved)
+Progress: 310/678 (Checkpoint Saved)
+Progress: 320/678 (Checkpoint Saved)
+Progress: 330/678 (Checkpoint Saved)
+Progress: 340/678 (Checkpoint Saved)
+Progress: 350/678 (Checkpoint Saved)
+Progress: 360/678 (Checkpoint Saved)
+Progress: 370/678 (Checkpoint Saved)
+Progress: 380/678 (Checkpoint Saved)
+Progress: 390/678 (Checkpoint Saved)
+Progress: 400/678 (Checkpoint Saved)
+Progress: 410/678 (Checkpoint Saved)
+Progress: 420/678 (Checkpoint Saved)
+Progress: 430/678 (Checkpoint Saved)
+Progress: 440/678 (Checkpoint Saved)
+Progress: 450/678 (Checkpoint Saved)
+Progress: 460/678 (Checkpoint Saved)
+Progress: 470/678 (Checkpoint Saved)
+Progress: 480/678 (Checkpoint Saved)
+Progress: 490/678 (Checkpoint Saved)
+Progress: 500/678 (Checkpoint Saved)
+Progress: 510/678 (Checkpoint Saved)
+Progress: 520/678 (Checkpoint Saved)
+Progress: 530/678 (Checkpoint Saved)
+Progress: 540/678 (Checkpoint Saved)
+Progress: 550/678 (Checkpoint Saved)
+Progress: 560/678 (Checkpoint Saved)
+Progress: 570/678 (Checkpoint Saved)
+Progress: 580/678 (Checkpoint Saved)
+Progress: 590/678 (Checkpoint Saved)
+Progress: 600/678 (Checkpoint Saved)
+Progress: 610/678 (Checkpoint Saved)
+Progress: 620/678 (Checkpoint Saved)
+Progress: 630/678 (Checkpoint Saved)
+Progress: 640/678 (Checkpoint Saved)
+Progress: 650/678 (Checkpoint Saved)
+Progress: 660/678 (Checkpoint Saved)
+Progress: 670/678 (Checkpoint Saved)
+Calculating relative valuations and scores...
+Calculating sector rankings...
+Generating AI insights...
+Running strategy backtest for report metadata...
+Historical snapshot saved: history/bist_data_2026-02-20.json
+Latest data updated: bist_all_data.json
+Total BIST stocks processed: 678
+BIST Taraması tamamlandı: Cum 20 Şub 2026 09:48:11 +03
+[2/3] ABD Taraması başlıyor...
+Fetched 702 tickers from Midas.
+Scanning 702 US stocks (Including 0 missing new scores)...
+Progress: 10/702 (Checkpoint Saved)
+Progress: 20/702 (Checkpoint Saved)
+Progress: 30/702 (Checkpoint Saved)
+Progress: 40/702 (Checkpoint Saved)
+Progress: 50/702 (Checkpoint Saved)
+Progress: 60/702 (Checkpoint Saved)
+Progress: 70/702 (Checkpoint Saved)
+Progress: 80/702 (Checkpoint Saved)
+Progress: 90/702 (Checkpoint Saved)
+Progress: 100/702 (Checkpoint Saved)
+Progress: 110/702 (Checkpoint Saved)
+Progress: 120/702 (Checkpoint Saved)
+Progress: 130/702 (Checkpoint Saved)
+Progress: 140/702 (Checkpoint Saved)
+Progress: 150/702 (Checkpoint Saved)
+Progress: 160/702 (Checkpoint Saved)
+Progress: 170/702 (Checkpoint Saved)
+Progress: 180/702 (Checkpoint Saved)
+Progress: 190/702 (Checkpoint Saved)
+Progress: 200/702 (Checkpoint Saved)
+Progress: 210/702 (Checkpoint Saved)
+Progress: 220/702 (Checkpoint Saved)
+Progress: 230/702 (Checkpoint Saved)
+Progress: 240/702 (Checkpoint Saved)
+Progress: 250/702 (Checkpoint Saved)
+Progress: 260/702 (Checkpoint Saved)
+Progress: 270/702 (Checkpoint Saved)
+Progress: 280/702 (Checkpoint Saved)
+Progress: 290/702 (Checkpoint Saved)
+Progress: 300/702 (Checkpoint Saved)
+Progress: 310/702 (Checkpoint Saved)
+Progress: 320/702 (Checkpoint Saved)
+Progress: 330/702 (Checkpoint Saved)
+Progress: 340/702 (Checkpoint Saved)
+Progress: 350/702 (Checkpoint Saved)
+Progress: 360/702 (Checkpoint Saved)
+Progress: 370/702 (Checkpoint Saved)
+Progress: 380/702 (Checkpoint Saved)
+Progress: 390/702 (Checkpoint Saved)
+Progress: 400/702 (Checkpoint Saved)
+Progress: 410/702 (Checkpoint Saved)
+Progress: 420/702 (Checkpoint Saved)
+Progress: 430/702 (Checkpoint Saved)
+Progress: 440/702 (Checkpoint Saved)
+Progress: 450/702 (Checkpoint Saved)
+Progress: 460/702 (Checkpoint Saved)
+Progress: 470/702 (Checkpoint Saved)
+Progress: 480/702 (Checkpoint Saved)
+Progress: 490/702 (Checkpoint Saved)
+Progress: 500/702 (Checkpoint Saved)
+Progress: 510/702 (Checkpoint Saved)
+Progress: 520/702 (Checkpoint Saved)
+Progress: 530/702 (Checkpoint Saved)
+Progress: 540/702 (Checkpoint Saved)
+Progress: 550/702 (Checkpoint Saved)
+Progress: 560/702 (Checkpoint Saved)
+Progress: 570/702 (Checkpoint Saved)
+Progress: 580/702 (Checkpoint Saved)
+Progress: 590/702 (Checkpoint Saved)
+Progress: 600/702 (Checkpoint Saved)
+Progress: 610/702 (Checkpoint Saved)
+Progress: 620/702 (Checkpoint Saved)
+Progress: 630/702 (Checkpoint Saved)
+Progress: 640/702 (Checkpoint Saved)
+Progress: 650/702 (Checkpoint Saved)
+Progress: 660/702 (Checkpoint Saved)
+Progress: 670/702 (Checkpoint Saved)
+Progress: 680/702 (Checkpoint Saved)
+Progress: 690/702 (Checkpoint Saved)
+Progress: 700/702 (Checkpoint Saved)
+Calculating relative valuations and scores...
+Calculating sector rankings...
+Generating AI Wall Street Insights...
+Historical snapshot saved: history/midas_data_2026-02-20.json
+Latest data updated: midas_all_data.json
+Total US stocks processed: 702
+ABD Taraması tamamlandı: Cum 20 Şub 2026 10:21:49 +03
+[3/4] Portföy Raporları oluşturuluyor...
+
+--- PROCESSING BIST PORTFOLIO ---
+
+=== PORTFOLIO REBALANCE REPORT (2026-02-20) ===
+Strategy: Master Score Top 10
+
+[SELL] - Score dropped below Top 10:
+  - TURSG
+  - KRSTL
+  - TUPRS
+
+[BUY] - Entering Top 10 Leaders:
+  - GRSEL (Gür-Sel Turizm Tasimacilik ve Servis Ticaret A.S.) | Score: 59.7
+  - TTKOM (Türk Telekomünikasyon Anonim Sirketi) | Score: 58.8
+  - TABGD (None) | Score: 57.8
+
+[HOLD] - Staying in Top 10:
+  - ATATP | Score: 66.7
+  - DOAS | Score: 65.0
+  - PCILT | Score: 63.7
+  - MACKO | Score: 63.6
+  - AGESA | Score: 61.7
+  - ANSGR | Score: 60.2
+  - ULKER | Score: 60.1
+
+Target portfolio saved to bist_portfolio.json
+
+--- PROCESSING US PORTFOLIO ---
+
+=== PORTFOLIO REBALANCE REPORT (2026-02-20) ===
+Strategy: Master Score Top 10
+
+[SELL] - Score dropped below Top 10:
+  - TRV
+  - KOF
+  - E
+
+[BUY] - Entering Top 10 Leaders:
+  - GFI (Gold Fields Limited) | Score: 62.0
+  - JBL (Jabil Inc.) | Score: 61.0
+  - EQNR (Equinor ASA) | Score: 60.3
+
+[HOLD] - Staying in Top 10:
+  - TSM | Score: 65.9
+  - THC | Score: 64.3
+  - CF | Score: 63.5
+  - LRCX | Score: 63.5
+  - AEM | Score: 63.1
+  - EIX | Score: 60.8
+  - BHP | Score: 60.0
+
+Target portfolio saved to us_portfolio.json
+[4/4] History güncelleniyor...
+Processing BIST Checklist...
+Saved history/bist_data_2026-02-20.json with 670 stocks.
+Processing US Checklist...
+Saved history/midas_data_2026-02-20.json with 700 stocks.
+========================================
+Tüm taramalar tamamlandı: Cum 20 Şub 2026 10:21:50 +03
+========================================

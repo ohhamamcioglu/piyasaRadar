@@ -1,0 +1,47 @@
+name: Global Market Sync & KAP Monitor
+
+on:
+  schedule:
+    # BIST Scan: 15:30 UTC (18:30 TR Time) - After Market Close
+    - cron: "30 15 * * 1-5"
+    # US Scan: 21:30 UTC (00:30 TR Time - Next Day) - After Wall St Close
+    - cron: "30 21 * * 1-5"
+    # KAP Monitor: Every 30m during TR trading hours (06:00 - 15:00 UTC)
+    - cron: "*/30 06-15 * * 1-5"
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  sync_markets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Dependencies
+        run: |
+          pip install requests beautifulsoup4 yfinance pandas lxml
+
+      - name: Run KAP Monitor Snapshot
+        if: github.event.schedule == '*/30 06-15 * * 1-5' || github.event_name == 'workflow_dispatch'
+        run: python kap_monitor.py --once
+
+      - name: Run BIST Scanner
+        if: github.event.schedule == '30 15 * * 1-5' || github.event_name == 'workflow_dispatch'
+        run: python bist_scanner.py
+
+      - name: Run US Scanner
+        if: github.event.schedule == '30 21 * * 1-5' || github.event_name == 'workflow_dispatch'
+        run: python us_scanner.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add bist_all_data.json midas_all_data.json kap_history.json latest_kap.json history/
+          git commit -m "chore: automated market sync [skip ci]" || echo "No changes to commit"
+          git push

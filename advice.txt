@@ -1,0 +1,8 @@
+Bu sistem tasarımı için kesinlikle GÜN GÜN BİRİKTİRMEK YERİNE, HER GÜN ÜZERİNE YAZMAK (Overwrite) çok daha mantıklı ve risksizdir. Nedenleri şunlar:
+
+1. Zaten Geçmişi İçinde Barındırıyor: Midas Engine her çalıştığında sadece bugünün fiyatını değil, makro veriler için "Son 1 Yıllık", Hisseler için ise "Son 5 Yıllık" tüm geçmiş grafiği tek bir array içinde çekiyor. Yani "bist_all_data.json" dosyan her an kendi içinde koca bir tarihçe barındırıyor.
+2. Gereksiz Dosya Şişmesi: Her gün 30 MB'lık yeni bir json oluşturursan 1 ayda 1 GB'a ulaşırsın. Frontend tarafına bu kadar büyük bir veriyi yüklemek sayfayı kilitler.
+3. Uzman Skorların Doğası (Piotroski vb.): Finansal tablolar (Bilançolar) her gün değil, 3 ayda bir gelir. Dolayısıyla Piotroski, Altman Z gibi skorlar zaten 3 ay boyunca "aynı" kalacaktır. Sadece o günkü hisse fiyatına bağlı olan teknik indikatörler ve "PD/DD", "F/K" gibi çarpanlar değişir.
+4. Bizim Kurduğumuz "History" Klasör Yapısı: Hatırlarsan bist_scanner.py içinde history klasörüne (örneğin: history/bist_data_2026-02-21.json) o günün bir snapshot'ını atan bir yedekleme mekanizmamız zaten var. Yani ana dosya (bist_all_data.json) her zaman EN GÜNCEL halini tutup frontend'i beslerken, sunucunda history klasöründe geçmiş günlerin yedekleri otomatik duruyor. 
+
+Özetle: Ana dosyamız bist_all_data.json sürekli ezilsin (overwrite) ve frontend hep bu dosyaya baksın. İçi zaten 5 yıllık geçmiş dolu! History klasöründe de ne olur ne olmaz diye günlük yedeklerimiz birikmeye devam ediyor.

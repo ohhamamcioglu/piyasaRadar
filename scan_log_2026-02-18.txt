@@ -1,0 +1,95 @@
+BIST Taraması tamamlandı: Çrş 18 Şub 2026 21:41:28 +03
+[2/3] ABD Taraması başlıyor...
+Fetched 702 tickers from Midas.
+Scanning 702 US stocks (Including 0 missing new scores)...
+Progress: 10/702 (Checkpoint Saved)
+Progress: 20/702 (Checkpoint Saved)
+Progress: 30/702 (Checkpoint Saved)
+Progress: 40/702 (Checkpoint Saved)
+Progress: 50/702 (Checkpoint Saved)
+Progress: 60/702 (Checkpoint Saved)
+Progress: 70/702 (Checkpoint Saved)
+Progress: 80/702 (Checkpoint Saved)
+Progress: 90/702 (Checkpoint Saved)
+Progress: 100/702 (Checkpoint Saved)
+Progress: 110/702 (Checkpoint Saved)
+Progress: 120/702 (Checkpoint Saved)
+Progress: 130/702 (Checkpoint Saved)
+Progress: 140/702 (Checkpoint Saved)
+Progress: 150/702 (Checkpoint Saved)
+Progress: 160/702 (Checkpoint Saved)
+Progress: 170/702 (Checkpoint Saved)
+Progress: 180/702 (Checkpoint Saved)
+Progress: 190/702 (Checkpoint Saved)
+Progress: 200/702 (Checkpoint Saved)
+Progress: 210/702 (Checkpoint Saved)
+Progress: 220/702 (Checkpoint Saved)
+Progress: 230/702 (Checkpoint Saved)
+Progress: 240/702 (Checkpoint Saved)
+Progress: 250/702 (Checkpoint Saved)
+Progress: 260/702 (Checkpoint Saved)
+Progress: 270/702 (Checkpoint Saved)
+Progress: 280/702 (Checkpoint Saved)
+Progress: 290/702 (Checkpoint Saved)
+Progress: 300/702 (Checkpoint Saved)
+Progress: 310/702 (Checkpoint Saved)
+Progress: 320/702 (Checkpoint Saved)
+Progress: 330/702 (Checkpoint Saved)
+Progress: 340/702 (Checkpoint Saved)
+Progress: 350/702 (Checkpoint Saved)
+Progress: 360/702 (Checkpoint Saved)
+Progress: 370/702 (Checkpoint Saved)
+Progress: 380/702 (Checkpoint Saved)
+Progress: 390/702 (Checkpoint Saved)
+Progress: 400/702 (Checkpoint Saved)
+Progress: 410/702 (Checkpoint Saved)
+Progress: 420/702 (Checkpoint Saved)
+Progress: 430/702 (Checkpoint Saved)
+Progress: 440/702 (Checkpoint Saved)
+Progress: 450/702 (Checkpoint Saved)
+Progress: 460/702 (Checkpoint Saved)
+Progress: 470/702 (Checkpoint Saved)
+Progress: 480/702 (Checkpoint Saved)
+Progress: 490/702 (Checkpoint Saved)
+Progress: 500/702 (Checkpoint Saved)
+Progress: 510/702 (Checkpoint Saved)
+Progress: 520/702 (Checkpoint Saved)
+Progress: 530/702 (Checkpoint Saved)
+Progress: 540/702 (Checkpoint Saved)
+Progress: 550/702 (Checkpoint Saved)
+Progress: 560/702 (Checkpoint Saved)
+Progress: 570/702 (Checkpoint Saved)
+Progress: 580/702 (Checkpoint Saved)
+Progress: 590/702 (Checkpoint Saved)
+Progress: 600/702 (Checkpoint Saved)
+Progress: 610/702 (Checkpoint Saved)
+Progress: 620/702 (Checkpoint Saved)
+Progress: 630/702 (Checkpoint Saved)
+Progress: 640/702 (Checkpoint Saved)
+Progress: 650/702 (Checkpoint Saved)
+Progress: 660/702 (Checkpoint Saved)
+Progress: 670/702 (Checkpoint Saved)
+Progress: 680/702 (Checkpoint Saved)
+Progress: 690/702 (Checkpoint Saved)
+Progress: 700/702 (Checkpoint Saved)
+Calculating relative valuations and scores...
+Calculating sector rankings...
+Generating AI Wall Street Insights...
+Historical snapshot saved: history/midas_data_2026-02-18.json
+Latest data updated: midas_all_data.json
+Total US stocks processed: 702
+ABD Taraması tamamlandı: Prş 19 Şub 2026 06:48:53 +03
+[3/4] Portföy Raporları oluşturuluyor...
+
+--- PROCESSING BIST PORTFOLIO ---
+Traceback (most recent call last):
+  File "/home/ohhamamcioglu/Desktop/bistTümBilanco/portfolio_manager.py", line 107, in <module>
+    manage_portfolio('bist_all_data.json', 'bist_portfolio.json')
+  File "/home/ohhamamcioglu/Desktop/bistTümBilanco/portfolio_manager.py", line 46, in manage_portfolio
+    stocks.sort(key=lambda x: x['score'], reverse=True)
+TypeError: '<' not supported between instances of 'NoneType' and 'float'
+[4/4] History güncelleniyor...
+US Checkpoint not ready yet.
+========================================
+Tüm taramalar tamamlandı: Prş 19 Şub 2026 06:48:54 +03
+========================================
