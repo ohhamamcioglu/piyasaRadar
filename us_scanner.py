@@ -490,12 +490,12 @@ def scan_us_market():
     
     historical_file = f"history/midas_data_{today}.json"
     
+    import math
+
     # Sanitize results before saving to ensure valid JSON
     def sanitize_float(val):
         if isinstance(val, float):
-            if val != val: # NaN check
-                return None
-            if val == float('inf') or val == float('-inf'):
+            if math.isnan(val) or val == float('inf') or val == float('-inf'):
                 return None
         return val
 
