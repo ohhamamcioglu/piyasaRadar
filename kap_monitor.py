@@ -125,4 +125,6 @@ def monitor_kap(once=False):
 if __name__ == "__main__":
     import os
     import json
-    monitor_kap()
+    import sys
+    run_once = '--once' in sys.argv
+    monitor_kap(once=run_once)
