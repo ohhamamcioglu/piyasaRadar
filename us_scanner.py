@@ -29,6 +29,8 @@ def get_stock_data(ticker):
         stock = yf.Ticker(full_ticker)
         info = stock.info
         
+        tech_res, prices_res = calculate_technicals(stock) or (None, [])
+        
         # Summary dict with all fundamental metrics
         data = {
             "ticker": ticker,
@@ -113,8 +115,8 @@ def get_stock_data(ticker):
                 "strategic_radars": {} # Placeholder
             },
             
-            "technicals": calculate_technicals(stock),
-            
+            "technicals": tech_res,
+            "fiyat_gecmisi": prices_res,
             "last_updated": datetime.now().isoformat()
         }
         
@@ -169,9 +171,9 @@ def calculate_technicals(stock):
             "momentum_3m": ret_3m,
             "momentum_1y": ret_1y,
             "price_vs_sma200": (current_price / sma_200 - 1) if sma_200 else None
-        }
+        }, closes.tolist()
     except Exception:
-        return None
+        return None, []
 
 
 def calculate_relative_scores(results):
@@ -509,6 +511,18 @@ def scan_us_market():
 
     results = sanitize_data(results)
 
+    # Fetch Macro Indicators for US Market
+    print("Fetching US Macro Indicators (1Y History)...")
+    macros = {}
+    try:
+        macro_tickers = {"SP500": "^GSPC", "Nasdaq": "^IXIC", "VIX": "^VIX"}
+        for name, ticker in macro_tickers.items():
+            hist = yf.Ticker(ticker).history(period="1y")
+            if not hist.empty:
+                macros[name] = sanitize_data(hist['Close'].tolist())
+    except Exception as e:
+        print(f"Error fetching macros: {e}")
+
     final_output = {
         "metadata": {
             "date": today,
@@ -519,6 +533,7 @@ def scan_us_market():
                 "message": "Strategy Outperforms S&P 500 by ~14%"
             }
         },
+        "macros": macros,
         "data": results
     }
 
