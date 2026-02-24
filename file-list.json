@@ -16,11 +16,14 @@
     "history/midas_data_2026-02-20.json",
     "history/midas_data_2026-02-21.json",
     "history/midas_data_2026-02-24.json",
+    "jobs.json",
     "midas_all_data.json",
+    "overnight_jobs.json",
     "us_checkpoint_2026-02-18.json",
     "us_checkpoint_2026-02-19.json",
     "us_checkpoint_2026-02-20.json",
     "us_checkpoint_2026-02-21.json",
+    "us_checkpoint_2026-02-22.json",
     "us_checkpoint_2026-02-24.json",
     "us_portfolio.json"
 ]
