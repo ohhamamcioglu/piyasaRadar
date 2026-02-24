@@ -1,4 +1,3 @@
-import yfinance as yf
 import pandas as pd
 import json
 import time
@@ -18,13 +17,6 @@ import midas_engine
 
 def get_stock_data(ticker):
     try:
-        full_ticker = f"{ticker}.IS"
-        stock = yf.Ticker(full_ticker)
-        try:
-            info = stock.info
-        except:
-            info = {}
-            
         client = midas_client.MidasClient()
         midas_static = client.fetch_static_fundamentals(ticker)
         midas_fins_raw = client.fetch_financial_statements(ticker)
@@ -42,55 +34,55 @@ def get_stock_data(ticker):
             
         current = midas_periods[0]
         
-        # Summary dict with all fundamental metrics (Hydrated with Midas + yf fallback)
+        # Summary dict with all fundamental metrics (Hydrated with Midas)
         data = {
             "ticker": ticker,
-            "name": info.get('longName') or ticker,
-            "sector": info.get('sector') or "BIST",
-            "industry": info.get('industry') or "Unknown",
-            "price": midas_static.get('price') or info.get('currentPrice'),
-            "market_cap": midas_static.get('market_cap') or info.get('marketCap'),
+            "name": midas_static.get('name') or ticker,
+            "sector": midas_static.get('profile', {}).get('sector') or "BIST",
+            "industry": midas_static.get('profile', {}).get('industry') or "Unknown",
+            "price": midas_static.get('price'),
+            "market_cap": midas_static.get('market_cap'),
             
             "valuation": {
-                "pe_trailing": midas_static.get('pe_trailing') or info.get('trailingPE'),
-                "pe_forward": info.get('forwardPE'),
-                "peg_ratio": info.get('pegRatio'),
-                "pb_ratio": midas_static.get('pb_ratio') or info.get('priceToBook'),
-                "ev_ebitda": info.get('enterpriseToEbitda'),
-                "ev_revenue": info.get('enterpriseToRevenue'),
-                "ps_ratio": info.get('priceToSalesTrailing12Months')
+                "pe_trailing": midas_static.get('pe_trailing'),
+                "pe_forward": None, # Midas doesn't always provide forward PE
+                "peg_ratio": None,
+                "pb_ratio": midas_static.get('pb_ratio'),
+                "ev_ebitda": None,
+                "ev_revenue": None,
+                "ps_ratio": None,
             },
             
             "profitability": {
-                "roe": midas_scores.get('erdinc_roe') or info.get('returnOnEquity'),
-                "roa": (current["net_income"] / current["total_assets"]) if current["total_assets"] else info.get('returnOnAssets'),
-                "net_margin": info.get('profitMargins'),
-                "operating_margin": info.get('operatingMargins'),
-                "gross_margin": info.get('grossMargins'),
-                "ebitda_margin": info.get('ebitdaMargins'),
+                "roe": midas_scores.get('erdinc_roe'),
+                "roa": (current["net_income"] / current["total_assets"]) if current["total_assets"] else None,
+                "net_margin": None,
+                "operating_margin": None,
+                "gross_margin": None,
+                "ebitda_margin": None,
                 "roe_stability": 100, # Default
                 "quarterly_kâr_trendi": [p.get("net_income") for p in midas_periods[:4]][::-1] if len(midas_periods) >= 4 else [p.get("net_income") for p in midas_periods][::-1]
             },
             
             "growth": {
-                "revenue_growth": info.get('revenueGrowth'),
-                "earnings_growth": info.get('earningsGrowth'),
-                "earnings_quarterly_growth": info.get('earningsQuarterlyGrowth')
+                "revenue_growth": None,
+                "earnings_growth": None,
+                "earnings_quarterly_growth": None
             },
             
             "solvency": {
-                "debt_to_equity": info.get('debtToEquity'),
-                "current_ratio": info.get('currentRatio'),
-                "quick_ratio": info.get('quickRatio'),
+                "debt_to_equity": None,
+                "current_ratio": None,
+                "quick_ratio": None,
                 "interest_coverage": None
             },
             
             "dividends_performance": {
-                "dividend_yield": midas_static.get('dividend_yield') or info.get('dividendYield'),
-                "payout_ratio": info.get('payoutRatio'),
-                "beta": info.get('beta'),
-                "52w_high": info.get('fiftyTwoWeekHigh'),
-                "52w_low": info.get('fiftyTwoWeekLow')
+                "dividend_yield": midas_static.get('dividend_yield'),
+                "payout_ratio": None,
+                "beta": None,
+                "52w_high": None,
+                "52w_low": None
             },
 
             "cash_flow": {
@@ -100,17 +92,17 @@ def get_stock_data(ticker):
             },
 
             "targets_consensus": {
-                "target_high": info.get('targetHighPrice'),
-                "target_low": info.get('targetLowPrice'),
-                "target_mean": info.get('targetMeanPrice'),
-                "target_median": info.get('targetMedianPrice'),
-                "recommendation": info.get('recommendationKey'),
-                "number_of_analysts": info.get('numberOfAnalystOpinions')
+                "target_high": None,
+                "target_low": None,
+                "target_mean": None,
+                "target_median": None,
+                "recommendation": None,
+                "number_of_analysts": None
             },
 
             "efficiency": {
                 "revenue_per_employee": None,
-                "revenue_per_share": info.get('revenuePerShare'),
+                "revenue_per_share": None,
                 "asset_turnover": (current["revenue"] / current["total_assets"]) if current.get("total_assets") else None,
                 "operating_income": current["operating_income"]
             }
@@ -121,7 +113,7 @@ def get_stock_data(ticker):
         data["scores"] = {
             "piotroski_f_score": midas_scores.get('piotroski_score'),
             "altman_z_score": midas_scores.get('altman_z'),
-            "graham_number": calculate_graham_number(info),
+            "graham_number": calculate_graham_number(midas_static, current),
             "yasar_erdinc_score": calculate_yasar_erdinc_score(data),
             "magic_formula": {"ey": midas_scores.get('magic_formula_ey'), "roc": midas_scores.get('magic_formula_roc')},
             "canslim_score": midas_scores.get('canslim_score'),
@@ -198,13 +190,26 @@ def calculate_technicals_from_midas(closes_list, usd_closes=None):
 
 
 
-def calculate_graham_number(info):
+def calculate_graham_number(midas_static, current):
     try:
-        eps = info.get('trailingEps')
-        book_value = info.get('bookValue')
-        if eps and book_value and eps > 0 and book_value > 0:
-            return (22.5 * eps * book_value) ** 0.5
-        return None
+        # Graham Number = sqrt(22.5 * EPS * BookValuePerShare)
+        # We can derive these from Midas static or latest period
+        pe = midas_static.get('pe_trailing')
+        price = midas_static.get('price')
+        
+        if pe and price and pe > 0:
+            actual_eps = price / pe
+        else:
+            actual_eps = current.get('net_income') / current.get('shares_outstanding') if current.get('shares_outstanding') else None
+
+        book_value_per_share = (current.get('total_assets') - current.get('total_liabilities')) / current.get('shares_outstanding') if current.get('shares_outstanding') else None
+        
+        if not actual_eps or not book_value_per_share or actual_eps <= 0 or book_value_per_share <= 0:
+            return None
+            
+        import math
+        val = math.sqrt(22.5 * actual_eps * book_value_per_share)
+        return val if val > 0 else None
     except:
         return None
 

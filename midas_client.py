@@ -39,7 +39,12 @@ class MidasClient:
                 return None
             
             soup = BeautifulSoup(response.text, 'html.parser')
-            data = {"ticker": ticker, "price": None}
+            data = {"ticker": ticker, "price": None, "name": None}
+            
+            # Extract Company Name from H1
+            h1_elem = soup.select_one('h1')
+            if h1_elem:
+                data['name'] = h1_elem.text.strip()
             
             # Extract Data Blocks
             data_blocks = soup.select('.data')
