@@ -625,23 +625,33 @@ def scan_all_bist():
     
     print(f"Scanning {len(remaining_tickers)} stocks (Including {len(tickers_to_update)} missing new scores)...")
     
-    # STEALTH MODE: Sequential processing with delay
-    count = 0
-    for ticker in remaining_tickers:
-        res = get_stock_data(ticker)
-        if res:
-            results.append(res)
+    # MULTI-THREADED SCAN: Use 5-10 workers for speed as we are now pure Midas
+    max_workers = 5 if os.environ.get("GITHUB_ACTIONS") else 1 # Be gentle locally, but fly on GitHub
+    print(f"Starting parallel scan with {max_workers} workers...")
+    
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+        future_to_ticker = {executor.submit(get_stock_data, t): t for t in remaining_tickers}
         
-        count += 1
-        if count % 10 == 0:
-            print(f"Progress: {len(results)}/{len(tickers)} (Checkpoint Saved)")
-            # Save Checkpoint
-            with open(checkpoint_file, "w", encoding="utf-8") as f:
-                json.dump({"data": results}, f, ensure_ascii=False)
-                
-        # Random Delay for Stealth (0.5 to 1.5 seconds) unless on GitHub Actions
-        if not os.environ.get("GITHUB_ACTIONS"):
-            time.sleep(random.uniform(0.5, 1.5))
+        count = 0
+        for future in concurrent.futures.as_completed(future_to_ticker):
+            ticker = future_to_ticker[future]
+            try:
+                res = future.result()
+                if res:
+                    results.append(res)
+            except Exception as exc:
+                print(f"{ticker} generated an exception: {exc}")
+            
+            count += 1
+            if count % 10 == 0:
+                print(f"Progress: {len(results)}/{len(tickers)} (Checkpoint Saved)")
+                # Save Checkpoint
+                with open(checkpoint_file, "w", encoding="utf-8") as f:
+                    json.dump({"data": results}, f, ensure_ascii=False)
+            
+            # Non-GitHub Actions users still get a tiny delay between batches to be nice
+            if not os.environ.get("GITHUB_ACTIONS") and count % max_workers == 0:
+                time.sleep(random.uniform(0.5, 1.0))
 
     # Post-process for relative scores
     print("Calculating relative valuations and scores...")
