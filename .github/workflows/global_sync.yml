@@ -10,6 +10,9 @@ on:
     - cron: "*/30 06-15 * * 1-5"
   workflow_dispatch: # Allow manual triggering
 
+permissions:
+  contents: write
+
 jobs:
   sync_markets:
     runs-on: ubuntu-latest
