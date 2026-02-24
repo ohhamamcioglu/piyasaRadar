@@ -473,8 +473,9 @@ def scan_us_market():
             with open(checkpoint_file, "w", encoding="utf-8") as f:
                 json.dump({"data": results}, f, ensure_ascii=False)
                 
-        # Random Delay (0.5 - 1.5s)
-        time.sleep(random.uniform(0.5, 1.5))
+        # Random Delay (0.5 - 1.5s) unless running on GitHub Actions
+        if not os.environ.get("GITHUB_ACTIONS"):
+            time.sleep(random.uniform(0.5, 1.5))
 
     # Post-process
     print("Calculating relative valuations and scores...")

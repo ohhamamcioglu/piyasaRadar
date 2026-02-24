@@ -634,8 +634,9 @@ def scan_all_bist():
             with open(checkpoint_file, "w", encoding="utf-8") as f:
                 json.dump({"data": results}, f, ensure_ascii=False)
                 
-        # Random Delay for Stealth (0.5 to 1.5 seconds)
-        time.sleep(random.uniform(0.5, 1.5))
+        # Random Delay for Stealth (0.5 to 1.5 seconds) unless on GitHub Actions
+        if not os.environ.get("GITHUB_ACTIONS"):
+            time.sleep(random.uniform(0.5, 1.5))
 
     # Post-process for relative scores
     print("Calculating relative valuations and scores...")
