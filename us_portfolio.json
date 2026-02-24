@@ -1,84 +1,84 @@
 {
-    "last_updated": "2026-02-21T10:59:28.749031",
+    "last_updated": "2026-02-24T11:09:43.308252",
     "holdings": [
         {
             "ticker": "TSM",
             "name": "Taiwan Semiconductor Manufacturing Company Limited",
-            "score": 65.9,
-            "price": 370.54,
+            "score": 70.9,
+            "price": 370.04,
             "sector": "Technology"
+        },
+        {
+            "ticker": "GFI",
+            "name": "Gold Fields Limited",
+            "score": 66.9,
+            "price": 56.98,
+            "sector": "Basic Materials"
         },
         {
             "ticker": "EIX",
             "name": "Edison International",
             "score": 65.7,
-            "price": 73.74,
+            "price": 74.65,
             "sector": "Utilities"
         },
         {
             "ticker": "THC",
             "name": "Tenet Healthcare Corporation",
             "score": 64.3,
-            "price": 229.9,
+            "price": 233.77,
             "sector": "Healthcare"
+        },
+        {
+            "ticker": "CF",
+            "name": "CF Industries Holdings, Inc.",
+            "score": 63.5,
+            "price": 95.45,
+            "sector": "Basic Materials"
         },
         {
             "ticker": "LRCX",
             "name": "Lam Research Corporation",
             "score": 63.5,
-            "price": 244.92,
+            "price": 242.27,
             "sector": "Technology"
         },
         {
-            "ticker": "CF",
-            "name": "CF Industries Holdings, Inc.",
+            "ticker": "NVDA",
+            "name": "NVIDIA Corporation",
             "score": 63.4,
-            "price": 97.18,
-            "sector": "Basic Materials"
+            "price": 191.55,
+            "sector": "Technology"
         },
         {
             "ticker": "FIX",
             "name": "Comfort Systems USA, Inc.",
             "score": 63.2,
-            "price": 1462.23,
+            "price": 1413.57,
             "sector": "Industrials"
         },
         {
             "ticker": "AEM",
             "name": "Agnico Eagle Mines Limited",
-            "score": 63.1,
-            "price": 228.26,
+            "score": 62.9,
+            "price": 240.49,
             "sector": "Basic Materials"
         },
         {
-            "ticker": "GFI",
-            "name": "Gold Fields Limited",
-            "score": 62.0,
-            "price": 54.09,
-            "sector": "Basic Materials"
-        },
-        {
-            "ticker": "JBL",
-            "name": "Jabil Inc.",
-            "score": 60.9,
-            "price": 271.09,
-            "sector": "Technology"
-        },
-        {
-            "ticker": "EQNR",
-            "name": "Equinor ASA",
-            "score": 60.3,
-            "price": 28.82,
+            "ticker": "ENB",
+            "name": "Enbridge Inc.",
+            "score": 62.2,
+            "price": 52.35,
             "sector": "Energy"
         }
     ],
     "summary": {
-        "avg_score": 63.23,
+        "avg_score": 64.65,
         "sectors": {
             "Technology": 3,
+            "Basic Materials": 3,
             "Utilities": 1,
             "Healthcare": 1,
-            "Basic Materials": 3,
             "Industrials": 1,
             "Energy": 1
         }

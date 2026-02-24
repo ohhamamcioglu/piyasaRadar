@@ -1,85 +1,8 @@
 {
-    "last_updated": "2026-02-21T10:59:28.716099",
-    "holdings": [
-        {
-            "ticker": "ATATP",
-            "name": "ATP Yazilim ve Teknoloji Anonim Sirketi",
-            "score": 66.7,
-            "price": 164.0,
-            "sector": "Technology"
-        },
-        {
-            "ticker": "DOAS",
-            "name": "Dogus Otomotiv Servis ve Ticaret A.S.",
-            "score": 65.0,
-            "price": 225.1,
-            "sector": "Consumer Cyclical"
-        },
-        {
-            "ticker": "MACKO",
-            "name": "Mackolik Internet Hizmetleri Ticaret A.S.",
-            "score": 63.7,
-            "price": 34.8,
-            "sector": "Communication Services"
-        },
-        {
-            "ticker": "PCILT",
-            "name": "PC Iletisim ve Medya Hizmetleri Sanayi Ticaret A.S.",
-            "score": 63.7,
-            "price": 25.2,
-            "sector": "Communication Services"
-        },
-        {
-            "ticker": "AGESA",
-            "name": "AgeSA Hayat ve Emeklilik Anonim Sirketi",
-            "score": 61.7,
-            "price": 247.9,
-            "sector": "Financial Services"
-        },
-        {
-            "ticker": "ANSGR",
-            "name": "Anadolu Anonim Türk Sigorta Sirketi",
-            "score": 60.2,
-            "price": 25.96,
-            "sector": "Financial Services"
-        },
-        {
-            "ticker": "ULKER",
-            "name": "Ülker Bisküvi Sanayi A.S.",
-            "score": 60.1,
-            "price": 130.1,
-            "sector": "Consumer Defensive"
-        },
-        {
-            "ticker": "TTKOM",
-            "name": "Türk Telekomünikasyon Anonim Sirketi",
-            "score": 58.7,
-            "price": 70.45,
-            "sector": "Communication Services"
-        },
-        {
-            "ticker": "TOASO",
-            "name": "Tofas Türk Otomobil Fabrikasi Anonim Sirketi",
-            "score": 57.2,
-            "price": 331.25,
-            "sector": "Consumer Cyclical"
-        },
-        {
-            "ticker": "DSTKF",
-            "name": null,
-            "score": 57.0,
-            "price": 1275.0,
-            "sector": "Financial Services"
-        }
-    ],
+    "last_updated": "2026-02-24T11:09:43.200557",
+    "holdings": [],
     "summary": {
-        "avg_score": 61.4,
-        "sectors": {
-            "Technology": 1,
-            "Consumer Cyclical": 2,
-            "Communication Services": 3,
-            "Financial Services": 3,
-            "Consumer Defensive": 1
-        }
+        "avg_score": 0.0,
+        "sectors": {}
     }
 }
