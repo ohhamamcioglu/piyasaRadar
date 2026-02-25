@@ -1,0 +1,26 @@
+﻿2026-02-24T08:10:10.0667005Z ##[group]Run git config --global user.name "GitHub Action"
+2026-02-24T08:10:10.0667457Z [36;1mgit config --global user.name "GitHub Action"[0m
+2026-02-24T08:10:10.0667831Z [36;1mgit config --global user.email "action@github.com"[0m
+2026-02-24T08:10:10.0668159Z [36;1mgit add *.json history/ || true[0m
+2026-02-24T08:10:10.0668997Z [36;1mgit commit -m "chore: automated market sync [skip ci]" || echo "No changes to commit"[0m
+2026-02-24T08:10:10.0669431Z [36;1mgit push[0m
+2026-02-24T08:10:10.0700675Z shell: /usr/bin/bash -e {0}
+2026-02-24T08:10:10.0700906Z env:
+2026-02-24T08:10:10.0701151Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T08:10:10.0701573Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.12/x64/lib/pkgconfig
+2026-02-24T08:10:10.0701995Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T08:10:10.0702357Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T08:10:10.0702716Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T08:10:10.0703106Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.12/x64/lib
+2026-02-24T08:10:10.0703412Z ##[endgroup]
+2026-02-24T08:10:10.4908634Z On branch main
+2026-02-24T08:10:10.4909078Z Your branch is up to date with 'origin/main'.
+2026-02-24T08:10:10.4909414Z 
+2026-02-24T08:10:10.4909557Z Changes not staged for commit:
+2026-02-24T08:10:10.4910020Z   (use "git add <file>..." to update what will be committed)
+2026-02-24T08:10:10.4910646Z   (use "git restore <file>..." to discard changes in working directory)
+2026-02-24T08:10:10.4911301Z 	modified:   __pycache__/xbrl_parser.cpython-312.pyc
+2026-02-24T08:10:10.4911657Z 
+2026-02-24T08:10:10.4911942Z no changes added to commit (use "git add" and/or "git commit -a")
+2026-02-24T08:10:10.4915259Z No changes to commit
+2026-02-24T08:10:10.7465137Z Everything up-to-date

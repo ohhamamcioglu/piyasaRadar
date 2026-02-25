@@ -8,9 +8,10 @@ def run_command(command, description):
     print(f"\n>>> Starting: {description}")
     print(f"Executing: {command}")
     try:
-        process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+        process = subprocess.Popen(command, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, bufsize=1)
         for line in process.stdout:
             print(line, end='')
+            sys.stdout.flush()
         process.wait()
         if process.returncode == 0:
             print(f"--- SUCCESS: {description}")
@@ -33,18 +34,19 @@ def main():
         print("Warning: git pull failed. Continuing anyway...")
 
     # 2. Run KAP Monitor
-    run_command("python3 kap_monitor.py", "Running KAP Monitor Snapshot")
+    run_command(f"{sys.executable} kap_monitor.py --once", "Running KAP Monitor Snapshot")
 
     # 3. Run BIST Scanner (Turbo Mode)
     # Ensure GITHUB_ACTIONS is NOT set so it uses full power if configured
-    run_command("python3 bist_scanner.py", "Running BIST Market Scanner (Turbo)")
+    run_command(f"{sys.executable} bist_scanner.py", "Running BIST Market Scanner (Turbo)")
 
     # 4. Run US Scanner (Turbo Mode)
-    run_command("python3 us_scanner.py", "Running US Market Scanner (Turbo)")
+    run_command(f"{sys.executable} us_scanner.py", "Running US Market Scanner (Turbo)")
 
     # 5. Commit and Push
     commit_msg = f"Data Auto-Update (Local): {datetime.now().strftime('%Y-%m-%d %H:%M')}"
-    git_chain = f'git add *.json history/*.json && git commit -m "{commit_msg}" && git push origin main'
+    # Use git commit -a and check if anything changed to avoid exit code 1
+    git_chain = f'git add . && git commit -m "{commit_msg}" || echo "No changes to commit" && git push origin main'
     run_command(git_chain, "Committing and Pushing Updates to GitHub")
 
     end_time = datetime.now()

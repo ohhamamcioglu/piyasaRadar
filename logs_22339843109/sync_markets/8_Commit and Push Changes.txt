@@ -1,0 +1,28 @@
+﻿2026-02-24T06:46:31.6754586Z ##[group]Run git config --global user.name "GitHub Action"
+2026-02-24T06:46:31.6755026Z [36;1mgit config --global user.name "GitHub Action"[0m
+2026-02-24T06:46:31.6755388Z [36;1mgit config --global user.email "action@github.com"[0m
+2026-02-24T06:46:31.6755710Z [36;1mgit add *.json history/ || true[0m
+2026-02-24T06:46:31.6756133Z [36;1mgit commit -m "chore: automated market sync [skip ci]" || echo "No changes to commit"[0m
+2026-02-24T06:46:31.6756560Z [36;1mgit push[0m
+2026-02-24T06:46:31.6787869Z shell: /usr/bin/bash -e {0}
+2026-02-24T06:46:31.6788094Z env:
+2026-02-24T06:46:31.6788332Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T06:46:31.6788747Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.12/x64/lib/pkgconfig
+2026-02-24T06:46:31.6789158Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T06:46:31.6789518Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T06:46:31.6789877Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T06:46:31.6790257Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.12/x64/lib
+2026-02-24T06:46:31.6790557Z ##[endgroup]
+2026-02-24T06:46:31.8685961Z On branch main
+2026-02-24T06:46:31.8686514Z Your branch is up to date with 'origin/main'.
+2026-02-24T06:46:31.8686930Z 
+2026-02-24T06:46:31.8687107Z Changes not staged for commit:
+2026-02-24T06:46:31.8687718Z   (use "git add <file>..." to update what will be committed)
+2026-02-24T06:46:31.8688531Z   (use "git restore <file>..." to discard changes in working directory)
+2026-02-24T06:46:31.8689334Z 	modified:   __pycache__/xbrl_parser.cpython-312.pyc
+2026-02-24T06:46:31.8689757Z 
+2026-02-24T06:46:31.8690069Z no changes added to commit (use "git add" and/or "git commit -a")
+2026-02-24T06:46:31.8691209Z No changes to commit
+2026-02-24T06:46:32.0961704Z remote: Permission to ohhamamcioglu/piyasaRadar.git denied to github-actions[bot].
+2026-02-24T06:46:32.0962627Z fatal: unable to access 'https://github.com/ohhamamcioglu/piyasaRadar/': The requested URL returned error: 403
+2026-02-24T06:46:32.0994478Z ##[error]Process completed with exit code 128.

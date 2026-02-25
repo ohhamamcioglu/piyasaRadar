@@ -1,0 +1,313 @@
+﻿2026-02-24T06:46:07.0386417Z Current runner version: '2.331.0'
+2026-02-24T06:46:07.0410758Z ##[group]Runner Image Provisioner
+2026-02-24T06:46:07.0411872Z Hosted Compute Agent
+2026-02-24T06:46:07.0412388Z Version: 20260123.484
+2026-02-24T06:46:07.0412967Z Commit: 6bd6555ca37d84114959e1c76d2c01448ff61c5d
+2026-02-24T06:46:07.0413893Z Build Date: 2026-01-23T19:41:17Z
+2026-02-24T06:46:07.0414496Z Worker ID: {375069c1-f531-462d-8d98-41844995421c}
+2026-02-24T06:46:07.0415191Z Azure Region: westcentralus
+2026-02-24T06:46:07.0415753Z ##[endgroup]
+2026-02-24T06:46:07.0417227Z ##[group]Operating System
+2026-02-24T06:46:07.0417795Z Ubuntu
+2026-02-24T06:46:07.0418312Z 24.04.3
+2026-02-24T06:46:07.0418747Z LTS
+2026-02-24T06:46:07.0419231Z ##[endgroup]
+2026-02-24T06:46:07.0419757Z ##[group]Runner Image
+2026-02-24T06:46:07.0420277Z Image: ubuntu-24.04
+2026-02-24T06:46:07.0420775Z Version: 20260201.15.1
+2026-02-24T06:46:07.0421941Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260201.15/images/ubuntu/Ubuntu2404-Readme.md
+2026-02-24T06:46:07.0423623Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260201.15
+2026-02-24T06:46:07.0424552Z ##[endgroup]
+2026-02-24T06:46:07.0425605Z ##[group]GITHUB_TOKEN Permissions
+2026-02-24T06:46:07.0427615Z Contents: read
+2026-02-24T06:46:07.0428241Z Metadata: read
+2026-02-24T06:46:07.0428737Z Packages: read
+2026-02-24T06:46:07.0429173Z ##[endgroup]
+2026-02-24T06:46:07.0431337Z Secret source: Actions
+2026-02-24T06:46:07.0432010Z Prepare workflow directory
+2026-02-24T06:46:07.0779914Z Prepare all required actions
+2026-02-24T06:46:07.0818592Z Getting action download info
+2026-02-24T06:46:07.4841829Z Download action repository 'actions/checkout@v4' (SHA:34e114876b0b11c390a56381ad16ebd13914f8d5)
+2026-02-24T06:46:07.5974578Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+2026-02-24T06:46:07.7802792Z Complete job name: sync_markets
+2026-02-24T06:46:07.8487723Z ##[group]Run actions/checkout@v4
+2026-02-24T06:46:07.8488566Z with:
+2026-02-24T06:46:07.8488979Z   repository: ohhamamcioglu/piyasaRadar
+2026-02-24T06:46:07.8489658Z   token: ***
+2026-02-24T06:46:07.8490033Z   ssh-strict: true
+2026-02-24T06:46:07.8490416Z   ssh-user: git
+2026-02-24T06:46:07.8490803Z   persist-credentials: true
+2026-02-24T06:46:07.8491239Z   clean: true
+2026-02-24T06:46:07.8491628Z   sparse-checkout-cone-mode: true
+2026-02-24T06:46:07.8492106Z   fetch-depth: 1
+2026-02-24T06:46:07.8492479Z   fetch-tags: false
+2026-02-24T06:46:07.8492871Z   show-progress: true
+2026-02-24T06:46:07.8493417Z   lfs: false
+2026-02-24T06:46:07.8493789Z   submodules: false
+2026-02-24T06:46:07.8494180Z   set-safe-directory: true
+2026-02-24T06:46:07.8494839Z ##[endgroup]
+2026-02-24T06:46:07.9607553Z Syncing repository: ohhamamcioglu/piyasaRadar
+2026-02-24T06:46:07.9610454Z ##[group]Getting Git version info
+2026-02-24T06:46:07.9611788Z Working directory is '/home/runner/work/piyasaRadar/piyasaRadar'
+2026-02-24T06:46:07.9613727Z [command]/usr/bin/git version
+2026-02-24T06:46:07.9669533Z git version 2.52.0
+2026-02-24T06:46:07.9696532Z ##[endgroup]
+2026-02-24T06:46:07.9712078Z Temporarily overriding HOME='/home/runner/work/_temp/d4d351d6-4e1a-4242-ab5e-13fdb4879594' before making global git config changes
+2026-02-24T06:46:07.9714679Z Adding repository directory to the temporary git global config as a safe directory
+2026-02-24T06:46:07.9725819Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/piyasaRadar/piyasaRadar
+2026-02-24T06:46:07.9761930Z Deleting the contents of '/home/runner/work/piyasaRadar/piyasaRadar'
+2026-02-24T06:46:07.9765951Z ##[group]Initializing the repository
+2026-02-24T06:46:07.9770738Z [command]/usr/bin/git init /home/runner/work/piyasaRadar/piyasaRadar
+2026-02-24T06:46:07.9859153Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-02-24T06:46:07.9860640Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-02-24T06:46:07.9861859Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-02-24T06:46:07.9863415Z hint: call:
+2026-02-24T06:46:07.9863801Z hint:
+2026-02-24T06:46:07.9864831Z hint: 	git config --global init.defaultBranch <name>
+2026-02-24T06:46:07.9865866Z hint:
+2026-02-24T06:46:07.9866856Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-02-24T06:46:07.9868481Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-02-24T06:46:07.9869791Z hint:
+2026-02-24T06:46:07.9870458Z hint: 	git branch -m <name>
+2026-02-24T06:46:07.9871178Z hint:
+2026-02-24T06:46:07.9872153Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-02-24T06:46:07.9874224Z Initialized empty Git repository in /home/runner/work/piyasaRadar/piyasaRadar/.git/
+2026-02-24T06:46:07.9877104Z [command]/usr/bin/git remote add origin https://github.com/ohhamamcioglu/piyasaRadar
+2026-02-24T06:46:07.9909030Z ##[endgroup]
+2026-02-24T06:46:07.9910232Z ##[group]Disabling automatic garbage collection
+2026-02-24T06:46:07.9914105Z [command]/usr/bin/git config --local gc.auto 0
+2026-02-24T06:46:07.9942365Z ##[endgroup]
+2026-02-24T06:46:07.9943769Z ##[group]Setting up auth
+2026-02-24T06:46:07.9950029Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-02-24T06:46:07.9980592Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-02-24T06:46:08.0305534Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-02-24T06:46:08.0336461Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-02-24T06:46:08.0555755Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-02-24T06:46:08.0585963Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-02-24T06:46:08.0820871Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-02-24T06:46:08.0857632Z ##[endgroup]
+2026-02-24T06:46:08.0860544Z ##[group]Fetching the repository
+2026-02-24T06:46:08.0868088Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +3a0133edd5d13940ee296a06c10bb3377cd98e53:refs/remotes/origin/main
+2026-02-24T06:46:14.0582990Z From https://github.com/ohhamamcioglu/piyasaRadar
+2026-02-24T06:46:14.0584418Z  * [new ref]         3a0133edd5d13940ee296a06c10bb3377cd98e53 -> origin/main
+2026-02-24T06:46:14.0616591Z ##[endgroup]
+2026-02-24T06:46:14.0619396Z ##[group]Determining the checkout info
+2026-02-24T06:46:14.0620785Z ##[endgroup]
+2026-02-24T06:46:14.0625493Z [command]/usr/bin/git sparse-checkout disable
+2026-02-24T06:46:14.0667827Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-02-24T06:46:14.0694908Z ##[group]Checking out the ref
+2026-02-24T06:46:14.0699413Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-02-24T06:46:15.0834493Z Updating files:  66% (4947/7461)
+2026-02-24T06:46:15.0878847Z Updating files:  67% (4999/7461)
+2026-02-24T06:46:15.0952151Z Updating files:  68% (5074/7461)
+2026-02-24T06:46:15.1000950Z Updating files:  69% (5149/7461)
+2026-02-24T06:46:15.1058668Z Updating files:  70% (5223/7461)
+2026-02-24T06:46:15.1120800Z Updating files:  71% (5298/7461)
+2026-02-24T06:46:15.1174359Z Updating files:  72% (5372/7461)
+2026-02-24T06:46:15.1228320Z Updating files:  73% (5447/7461)
+2026-02-24T06:46:15.1287118Z Updating files:  74% (5522/7461)
+2026-02-24T06:46:15.1342097Z Updating files:  75% (5596/7461)
+2026-02-24T06:46:15.1402540Z Updating files:  76% (5671/7461)
+2026-02-24T06:46:15.1462712Z Updating files:  77% (5745/7461)
+2026-02-24T06:46:15.1559932Z Updating files:  78% (5820/7461)
+2026-02-24T06:46:15.1631432Z Updating files:  79% (5895/7461)
+2026-02-24T06:46:15.1725979Z Updating files:  80% (5969/7461)
+2026-02-24T06:46:15.1790025Z Updating files:  81% (6044/7461)
+2026-02-24T06:46:15.1852555Z Updating files:  82% (6119/7461)
+2026-02-24T06:46:15.1907891Z Updating files:  83% (6193/7461)
+2026-02-24T06:46:15.1981255Z Updating files:  84% (6268/7461)
+2026-02-24T06:46:15.2104106Z Updating files:  85% (6342/7461)
+2026-02-24T06:46:15.2168501Z Updating files:  86% (6417/7461)
+2026-02-24T06:46:15.2192092Z Updating files:  87% (6492/7461)
+2026-02-24T06:46:15.2220024Z Updating files:  88% (6566/7461)
+2026-02-24T06:46:15.2251514Z Updating files:  89% (6641/7461)
+2026-02-24T06:46:15.2277428Z Updating files:  90% (6715/7461)
+2026-02-24T06:46:15.2305166Z Updating files:  91% (6790/7461)
+2026-02-24T06:46:15.2331235Z Updating files:  92% (6865/7461)
+2026-02-24T06:46:15.2357962Z Updating files:  93% (6939/7461)
+2026-02-24T06:46:15.2382287Z Updating files:  94% (7014/7461)
+2026-02-24T06:46:15.2434749Z Updating files:  95% (7088/7461)
+2026-02-24T06:46:15.2492095Z Updating files:  96% (7163/7461)
+2026-02-24T06:46:15.2548198Z Updating files:  97% (7238/7461)
+2026-02-24T06:46:15.2628821Z Updating files:  98% (7312/7461)
+2026-02-24T06:46:15.2696249Z Updating files:  99% (7387/7461)
+2026-02-24T06:46:15.2696968Z Updating files: 100% (7461/7461)
+2026-02-24T06:46:15.2697564Z Updating files: 100% (7461/7461), done.
+2026-02-24T06:46:15.2782344Z Switched to a new branch 'main'
+2026-02-24T06:46:15.2785953Z branch 'main' set up to track 'origin/main'.
+2026-02-24T06:46:15.2833062Z ##[endgroup]
+2026-02-24T06:46:15.2872263Z [command]/usr/bin/git log -1 --format=%H
+2026-02-24T06:46:15.2895299Z 3a0133edd5d13940ee296a06c10bb3377cd98e53
+2026-02-24T06:46:15.3143869Z ##[group]Run actions/setup-python@v5
+2026-02-24T06:46:15.3144269Z with:
+2026-02-24T06:46:15.3144515Z   python-version: 3.12
+2026-02-24T06:46:15.3144805Z   check-latest: false
+2026-02-24T06:46:15.3145236Z   token: ***
+2026-02-24T06:46:15.3145490Z   update-environment: true
+2026-02-24T06:46:15.3146016Z   allow-prereleases: false
+2026-02-24T06:46:15.3146421Z   freethreaded: false
+2026-02-24T06:46:15.3146820Z ##[endgroup]
+2026-02-24T06:46:15.4789518Z ##[group]Installed versions
+2026-02-24T06:46:15.4892361Z Successfully set up CPython (3.12.12)
+2026-02-24T06:46:15.4893775Z ##[endgroup]
+2026-02-24T06:46:15.5005275Z ##[group]Run pip install requests beautifulsoup4 yfinance pandas lxml
+2026-02-24T06:46:15.5005948Z [36;1mpip install requests beautifulsoup4 yfinance pandas lxml[0m
+2026-02-24T06:46:15.5051625Z shell: /usr/bin/bash -e {0}
+2026-02-24T06:46:15.5051953Z env:
+2026-02-24T06:46:15.5052278Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T06:46:15.5052800Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.12/x64/lib/pkgconfig
+2026-02-24T06:46:15.5053614Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T06:46:15.5054092Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T06:46:15.5054593Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T06:46:15.5055085Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.12/x64/lib
+2026-02-24T06:46:15.5055458Z ##[endgroup]
+2026-02-24T06:46:16.3117764Z Collecting requests
+2026-02-24T06:46:16.4123474Z   Downloading requests-2.32.5-py3-none-any.whl.metadata (4.9 kB)
+2026-02-24T06:46:16.4465307Z Collecting beautifulsoup4
+2026-02-24T06:46:16.4653868Z   Downloading beautifulsoup4-4.14.3-py3-none-any.whl.metadata (3.8 kB)
+2026-02-24T06:46:16.5114789Z Collecting yfinance
+2026-02-24T06:46:16.5303676Z   Downloading yfinance-1.2.0-py2.py3-none-any.whl.metadata (6.1 kB)
+2026-02-24T06:46:16.6931899Z Collecting pandas
+2026-02-24T06:46:16.7120937Z   Downloading pandas-3.0.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (79 kB)
+2026-02-24T06:46:16.9550594Z Collecting lxml
+2026-02-24T06:46:16.9741705Z   Downloading lxml-6.0.2-cp312-cp312-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl.metadata (3.6 kB)
+2026-02-24T06:46:17.0618355Z Collecting charset_normalizer<4,>=2 (from requests)
+2026-02-24T06:46:17.0811279Z   Downloading charset_normalizer-3.4.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (37 kB)
+2026-02-24T06:46:17.1119642Z Collecting idna<4,>=2.5 (from requests)
+2026-02-24T06:46:17.1307319Z   Downloading idna-3.11-py3-none-any.whl.metadata (8.4 kB)
+2026-02-24T06:46:17.1687956Z Collecting urllib3<3,>=1.21.1 (from requests)
+2026-02-24T06:46:17.1876441Z   Downloading urllib3-2.6.3-py3-none-any.whl.metadata (6.9 kB)
+2026-02-24T06:46:17.2216510Z Collecting certifi>=2017.4.17 (from requests)
+2026-02-24T06:46:17.2406374Z   Downloading certifi-2026.1.4-py3-none-any.whl.metadata (2.5 kB)
+2026-02-24T06:46:17.2736191Z Collecting soupsieve>=1.6.1 (from beautifulsoup4)
+2026-02-24T06:46:17.2927606Z   Downloading soupsieve-2.8.3-py3-none-any.whl.metadata (4.6 kB)
+2026-02-24T06:46:17.3240223Z Collecting typing-extensions>=4.0.0 (from beautifulsoup4)
+2026-02-24T06:46:17.3432523Z   Downloading typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+2026-02-24T06:46:17.5314238Z Collecting numpy>=1.16.5 (from yfinance)
+2026-02-24T06:46:17.5504907Z   Downloading numpy-2.4.2-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+2026-02-24T06:46:17.5778908Z Collecting multitasking>=0.0.7 (from yfinance)
+2026-02-24T06:46:17.5968824Z   Downloading multitasking-0.0.12.tar.gz (19 kB)
+2026-02-24T06:46:17.6049182Z   Installing build dependencies: started
+2026-02-24T06:46:18.6321365Z   Installing build dependencies: finished with status 'done'
+2026-02-24T06:46:18.6327064Z   Getting requirements to build wheel: started
+2026-02-24T06:46:18.9966383Z   Getting requirements to build wheel: finished with status 'done'
+2026-02-24T06:46:18.9974632Z   Preparing metadata (pyproject.toml): started
+2026-02-24T06:46:19.1775108Z   Preparing metadata (pyproject.toml): finished with status 'done'
+2026-02-24T06:46:19.2112040Z Collecting platformdirs>=2.0.0 (from yfinance)
+2026-02-24T06:46:19.2302024Z   Downloading platformdirs-4.9.2-py3-none-any.whl.metadata (4.7 kB)
+2026-02-24T06:46:19.2775886Z Collecting pytz>=2022.5 (from yfinance)
+2026-02-24T06:46:19.2963885Z   Downloading pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+2026-02-24T06:46:19.3525215Z Collecting frozendict>=2.3.4 (from yfinance)
+2026-02-24T06:46:19.3716424Z   Downloading frozendict-2.4.7-py3-none-any.whl.metadata (23 kB)
+2026-02-24T06:46:19.4057281Z Collecting peewee>=3.16.2 (from yfinance)
+2026-02-24T06:46:19.4251059Z   Downloading peewee-4.0.0-py3-none-any.whl.metadata (8.1 kB)
+2026-02-24T06:46:19.5085516Z Collecting curl_cffi<0.14,>=0.7 (from yfinance)
+2026-02-24T06:46:19.5278484Z   Downloading curl_cffi-0.13.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (13 kB)
+2026-02-24T06:46:19.6957499Z Collecting protobuf>=3.19.0 (from yfinance)
+2026-02-24T06:46:19.7151056Z   Downloading protobuf-6.33.5-cp39-abi3-manylinux2014_x86_64.whl.metadata (593 bytes)
+2026-02-24T06:46:19.8911910Z Collecting websockets>=13.0 (from yfinance)
+2026-02-24T06:46:19.9105708Z   Downloading websockets-16.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (6.8 kB)
+2026-02-24T06:46:20.0190545Z Collecting cffi>=1.12.0 (from curl_cffi<0.14,>=0.7->yfinance)
+2026-02-24T06:46:20.0380852Z   Downloading cffi-2.0.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.6 kB)
+2026-02-24T06:46:20.0715299Z Collecting python-dateutil>=2.8.2 (from pandas)
+2026-02-24T06:46:20.0906922Z   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+2026-02-24T06:46:20.1202985Z Collecting pycparser (from cffi>=1.12.0->curl_cffi<0.14,>=0.7->yfinance)
+2026-02-24T06:46:20.1396274Z   Downloading pycparser-3.0-py3-none-any.whl.metadata (8.2 kB)
+2026-02-24T06:46:20.1700663Z Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas)
+2026-02-24T06:46:20.1893414Z   Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+2026-02-24T06:46:20.2137192Z Downloading requests-2.32.5-py3-none-any.whl (64 kB)
+2026-02-24T06:46:20.2387781Z Downloading charset_normalizer-3.4.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (153 kB)
+2026-02-24T06:46:20.2765462Z Downloading idna-3.11-py3-none-any.whl (71 kB)
+2026-02-24T06:46:20.2982196Z Downloading urllib3-2.6.3-py3-none-any.whl (131 kB)
+2026-02-24T06:46:20.3220647Z Downloading beautifulsoup4-4.14.3-py3-none-any.whl (107 kB)
+2026-02-24T06:46:20.3465869Z Downloading yfinance-1.2.0-py2.py3-none-any.whl (130 kB)
+2026-02-24T06:46:20.3705146Z Downloading curl_cffi-0.13.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (8.3 MB)
+2026-02-24T06:46:20.4641576Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 94.8 MB/s  0:00:00
+2026-02-24T06:46:20.4832820Z Downloading pandas-3.0.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (10.9 MB)
+2026-02-24T06:46:20.5407144Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.9/10.9 MB 194.3 MB/s  0:00:00
+2026-02-24T06:46:20.5599365Z Downloading lxml-6.0.2-cp312-cp312-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (5.3 MB)
+2026-02-24T06:46:20.5906763Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.3/5.3 MB 177.9 MB/s  0:00:00
+2026-02-24T06:46:20.6095565Z Downloading certifi-2026.1.4-py3-none-any.whl (152 kB)
+2026-02-24T06:46:20.6310567Z Downloading cffi-2.0.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (219 kB)
+2026-02-24T06:46:20.6525372Z Downloading frozendict-2.4.7-py3-none-any.whl (16 kB)
+2026-02-24T06:46:20.6731883Z Downloading numpy-2.4.2-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.6 MB)
+2026-02-24T06:46:20.7686237Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.6/16.6 MB 176.5 MB/s  0:00:00
+2026-02-24T06:46:20.7874388Z Downloading peewee-4.0.0-py3-none-any.whl (139 kB)
+2026-02-24T06:46:20.8086853Z Downloading platformdirs-4.9.2-py3-none-any.whl (21 kB)
+2026-02-24T06:46:20.8293603Z Downloading protobuf-6.33.5-cp39-abi3-manylinux2014_x86_64.whl (323 kB)
+2026-02-24T06:46:20.8516834Z Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+2026-02-24T06:46:20.8737431Z Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+2026-02-24T06:46:20.8964522Z Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+2026-02-24T06:46:20.9174208Z Downloading soupsieve-2.8.3-py3-none-any.whl (37 kB)
+2026-02-24T06:46:20.9385876Z Downloading typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+2026-02-24T06:46:20.9604209Z Downloading websockets-16.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (184 kB)
+2026-02-24T06:46:20.9817909Z Downloading pycparser-3.0-py3-none-any.whl (48 kB)
+2026-02-24T06:46:21.0497064Z Building wheels for collected packages: multitasking
+2026-02-24T06:46:21.0505702Z   Building wheel for multitasking (pyproject.toml): started
+2026-02-24T06:46:21.2640691Z   Building wheel for multitasking (pyproject.toml): finished with status 'done'
+2026-02-24T06:46:21.2646631Z   Created wheel for multitasking: filename=multitasking-0.0.12-py3-none-any.whl size=15635 sha256=37f8a2c28d7a7816d8cb18d9f5415ee8518d21f8b9e7ea25d4b53b91157f8537
+2026-02-24T06:46:21.2648718Z   Stored in directory: /home/runner/.cache/pip/wheels/cc/bd/6f/664d62c99327abeef7d86489e6631cbf45b56fbf7ef1d6ef00
+2026-02-24T06:46:21.2676020Z Successfully built multitasking
+2026-02-24T06:46:21.3374661Z Installing collected packages: pytz, peewee, multitasking, websockets, urllib3, typing-extensions, soupsieve, six, pycparser, protobuf, platformdirs, numpy, lxml, idna, frozendict, charset_normalizer, certifi, requests, python-dateutil, cffi, beautifulsoup4, pandas, curl_cffi, yfinance
+2026-02-24T06:46:29.4714499Z 
+2026-02-24T06:46:29.4742134Z Successfully installed beautifulsoup4-4.14.3 certifi-2026.1.4 cffi-2.0.0 charset_normalizer-3.4.4 curl_cffi-0.13.0 frozendict-2.4.7 idna-3.11 lxml-6.0.2 multitasking-0.0.12 numpy-2.4.2 pandas-3.0.1 peewee-4.0.0 platformdirs-4.9.2 protobuf-6.33.5 pycparser-3.0 python-dateutil-2.9.0.post0 pytz-2025.2 requests-2.32.5 six-1.17.0 soupsieve-2.8.3 typing-extensions-4.15.0 urllib3-2.6.3 websockets-16.0 yfinance-1.2.0
+2026-02-24T06:46:29.6224646Z 
+2026-02-24T06:46:29.6225519Z [notice] A new release of pip is available: 26.0 -> 26.0.1
+2026-02-24T06:46:29.6226139Z [notice] To update, run: pip install --upgrade pip
+2026-02-24T06:46:29.8025489Z ##[group]Run python kap_monitor.py --once
+2026-02-24T06:46:29.8025826Z [36;1mpython kap_monitor.py --once[0m
+2026-02-24T06:46:29.8058900Z shell: /usr/bin/bash -e {0}
+2026-02-24T06:46:29.8059138Z env:
+2026-02-24T06:46:29.8059379Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T06:46:29.8059813Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.12/x64/lib/pkgconfig
+2026-02-24T06:46:29.8060228Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T06:46:29.8060602Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T06:46:29.8060962Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T06:46:29.8061316Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.12/x64/lib
+2026-02-24T06:46:29.8061619Z ##[endgroup]
+2026-02-24T06:46:31.6030595Z Monitoring KAP for new financial reports...
+2026-02-24T06:46:31.6031105Z KAP API Error: 405
+2026-02-24T06:46:31.6754599Z ##[group]Run git config --global user.name "GitHub Action"
+2026-02-24T06:46:31.6755029Z [36;1mgit config --global user.name "GitHub Action"[0m
+2026-02-24T06:46:31.6755391Z [36;1mgit config --global user.email "action@github.com"[0m
+2026-02-24T06:46:31.6755713Z [36;1mgit add *.json history/ || true[0m
+2026-02-24T06:46:31.6756136Z [36;1mgit commit -m "chore: automated market sync [skip ci]" || echo "No changes to commit"[0m
+2026-02-24T06:46:31.6756563Z [36;1mgit push[0m
+2026-02-24T06:46:31.6787875Z shell: /usr/bin/bash -e {0}
+2026-02-24T06:46:31.6788097Z env:
+2026-02-24T06:46:31.6788335Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T06:46:31.6788756Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.12/x64/lib/pkgconfig
+2026-02-24T06:46:31.6789160Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T06:46:31.6789520Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T06:46:31.6789908Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T06:46:31.6790259Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.12/x64/lib
+2026-02-24T06:46:31.6790560Z ##[endgroup]
+2026-02-24T06:46:31.8685991Z On branch main
+2026-02-24T06:46:31.8686520Z Your branch is up to date with 'origin/main'.
+2026-02-24T06:46:31.8686935Z 
+2026-02-24T06:46:31.8687112Z Changes not staged for commit:
+2026-02-24T06:46:31.8687722Z   (use "git add <file>..." to update what will be committed)
+2026-02-24T06:46:31.8688536Z   (use "git restore <file>..." to discard changes in working directory)
+2026-02-24T06:46:31.8689338Z 	modified:   __pycache__/xbrl_parser.cpython-312.pyc
+2026-02-24T06:46:31.8689761Z 
+2026-02-24T06:46:31.8690078Z no changes added to commit (use "git add" and/or "git commit -a")
+2026-02-24T06:46:31.8691219Z No changes to commit
+2026-02-24T06:46:32.0961733Z remote: Permission to ohhamamcioglu/piyasaRadar.git denied to github-actions[bot].
+2026-02-24T06:46:32.0962647Z fatal: unable to access 'https://github.com/ohhamamcioglu/piyasaRadar/': The requested URL returned error: 403
+2026-02-24T06:46:32.0994493Z ##[error]Process completed with exit code 128.
+2026-02-24T06:46:32.1100241Z Post job cleanup.
+2026-02-24T06:46:32.2048248Z [command]/usr/bin/git version
+2026-02-24T06:46:32.2084732Z git version 2.52.0
+2026-02-24T06:46:32.2120666Z Copying '/home/runner/.gitconfig' to '/home/runner/work/_temp/ee36f037-9367-45bc-9a62-af8142698d2c/.gitconfig'
+2026-02-24T06:46:32.2130617Z Temporarily overriding HOME='/home/runner/work/_temp/ee36f037-9367-45bc-9a62-af8142698d2c' before making global git config changes
+2026-02-24T06:46:32.2131636Z Adding repository directory to the temporary git global config as a safe directory
+2026-02-24T06:46:32.2136844Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/piyasaRadar/piyasaRadar
+2026-02-24T06:46:32.2171938Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-02-24T06:46:32.2203886Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-02-24T06:46:32.2445140Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-02-24T06:46:32.2464411Z http.https://github.com/.extraheader
+2026-02-24T06:46:32.2477124Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+2026-02-24T06:46:32.2506790Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-02-24T06:46:32.2744311Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-02-24T06:46:32.2774761Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-02-24T06:46:32.3115462Z Cleaning up orphan processes

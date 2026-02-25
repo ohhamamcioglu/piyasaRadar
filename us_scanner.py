@@ -11,6 +11,7 @@ from datetime import datetime
 import midas_client
 import midas_parser
 import midas_engine
+import shared_utils
 from us_backtest import run_us_backtest
 from bist_utils import calculate_piotroski, calculate_altman_z, calculate_yasar_erdinc_score, calculate_roe_stability, calculate_magic_formula, calculate_canslim_score, calculate_strategic_radars, calculate_master_score
 from us_utils import fetch_all_us_tickers
@@ -28,37 +29,38 @@ def calculate_graham_number(info):
 def get_stock_data(ticker):
     """
     Fetches data for a single US stock. 
-    Optimized for speed: avoid deep yfinance financials if they hang.
+    Optimized for speed and consistency with the BIST schema.
     """
     try:
         stock = yf.Ticker(ticker)
         info = stock.info
         
         # If info is empty, the ticker is likely invalid or delisted
-        if not info or not info.get('regularMarketPrice') and not info.get('currentPrice'):
+        if not info or (not info.get('regularMarketPrice') and not info.get('currentPrice')):
             return None
+
+        # 1. Sector Mapping (Standardized)
+        raw_sector = info.get('sector') or info.get('industry') or "US Market"
+        mapped_sector = shared_utils.map_sector(raw_sector)
 
         # SAFELY fetch technicals (Fast)
         tech_res, prices_res = calculate_technicals(stock) or (None, [])
         
-        # SAFELY fetch quarterly trend (This is the most likely hang point)
-        # We wrap it in a try-except to prevent it from blocking the whole stock
+        # SAFELY fetch quarterly trend
         quarterly_profits = []
         try:
-            # Only try if we really need it for scoring
             q_stmt = stock.quarterly_income_stmt
             if not q_stmt.empty and 'Net Income' in q_stmt.index:
                 quarterly_profits = q_stmt.loc['Net Income'].dropna().tolist()[::-1]
         except Exception:
-            # If it hangs or fails, just skip it. Quality of info is better than a hang.
             pass
 
-        # Summary dict with all fundamental metrics
+        # Summary dict matching BIST 2025 Hybrid Schema
         data = {
             "ticker": ticker,
             "name": info.get('longName') or ticker,
-            "sector": info.get('sector') or "US Market",
-            "industry": info.get('industry') or "General",
+            "sector": mapped_sector,
+            "industry": info.get('industry') or "Genel",
             "price": info.get('currentPrice') or info.get('regularMarketPrice'),
             "market_cap": info.get('marketCap'),
             "currency": info.get('currency', 'USD'),
@@ -80,8 +82,8 @@ def get_stock_data(ticker):
                 "operating_margin": info.get('operatingMargins'),
                 "gross_margin": info.get('grossMargins'),
                 "ebitda_margin": info.get('ebitdaMargins'),
-                "roe_stability": 10.0, # Static for US to avoid hang
-                "ceyreklik_kar_trendi": quarterly_profits
+                "roe_stability": 100, 
+                "quarterly_kâr_trendi": quarterly_profits
             },
             
             "growth": {
@@ -123,29 +125,26 @@ def get_stock_data(ticker):
             "efficiency": {
                 "revenue_per_employee": (info.get('totalRevenue') / info.get('fullTimeEmployees')) if (info.get('totalRevenue') and info.get('fullTimeEmployees')) else None,
                 "revenue_per_share": info.get('revenuePerShare'),
-                "asset_turnover": (info.get('totalRevenue') / info.get('totalAssets')) if (info.get('totalRevenue') and info.get('totalAssets')) else None,
+                "asset_turnover": (info.get('totalRevenue') / info.get('totalAssets')) if info.get('totalAssets') else None,
                 "operating_income": info.get('operatingIncome')
-            },
-            
-            "scores": {
-                "piotroski_f_score": 7, # Default for US to avoid hang
-                "altman_z_score": 3.0, # Default for US to avoid hang
-                "graham_number": calculate_graham_number(info),
-                "yasar_erdinc_score": 0, 
-                "magic_formula": {"ey": info.get('ebitdaMargins') or 0, "roc": info.get('returnOnAssets') or 0},
-                "canslim_score": 0,
-                "strategic_radars": {}
-            },
-            
-            "technicals": tech_res,
-            "fiyat_gecmisi": prices_res,
-            "last_updated": datetime.now().isoformat()
+            }
         }
         
-        data["scores"]["yasar_erdinc_score"] = calculate_yasar_erdinc_score(data)
-        data["scores"]["canslim_score"] = calculate_canslim_score(data)
-        data["scores"]["strategic_radars"] = calculate_strategic_radars(data)
-        data["scores"]["master_score"] = calculate_master_score(data)
+        data["technicals"] = tech_res
+        data["fiyat_gecmisi"] = prices_res
+        
+        data["scores"] = {
+            "piotroski_f_score": 7, 
+            "altman_z_score": 3.0,
+            "graham_number": calculate_graham_number(info),
+            "yasar_erdinc_score": calculate_yasar_erdinc_score(data),
+            "magic_formula": {"ey": info.get('ebitdaMargins') or 0, "roc": info.get('returnOnAssets') or 0},
+            "canslim_score": calculate_canslim_score(data),
+            "strategic_radars": calculate_strategic_radars(data),
+            "master_score": calculate_master_score(data)
+        }
+        
+        data["last_updated"] = datetime.now().isoformat()
         
         return data
     except Exception as e:

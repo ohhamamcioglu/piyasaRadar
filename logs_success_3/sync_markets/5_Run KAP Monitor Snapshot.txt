@@ -1,0 +1,13 @@
+﻿2026-02-24T08:10:07.8552112Z ##[group]Run python kap_monitor.py --once
+2026-02-24T08:10:07.8552465Z [36;1mpython kap_monitor.py --once[0m
+2026-02-24T08:10:07.8584158Z shell: /usr/bin/bash -e {0}
+2026-02-24T08:10:07.8584400Z env:
+2026-02-24T08:10:07.8584648Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T08:10:07.8585088Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.12/x64/lib/pkgconfig
+2026-02-24T08:10:07.8585502Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T08:10:07.8585863Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T08:10:07.8586225Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T08:10:07.8586588Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.12/x64/lib
+2026-02-24T08:10:07.8586915Z ##[endgroup]
+2026-02-24T08:10:09.9957088Z Monitoring KAP for new financial reports...
+2026-02-24T08:10:09.9957463Z KAP API Error: 405

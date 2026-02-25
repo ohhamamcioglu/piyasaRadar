@@ -1,20 +1,9 @@
 import requests
 import time
-import yfinance as yf
 from xbrl_parser import parse_kap_html
 
 KAP_API_URL = "https://www.kap.org.tr/tr/api/disclosure/list/main"
 PROCESSED_DISCLOSURES = set()
-
-def get_realtime_price(ticker):
-    try:
-        # Tickers on KAP are usually just codes, yfinance needs .IS for BIST
-        yf_ticker = f"{ticker}.IS"
-        stock = yf.Ticker(yf_ticker)
-        return stock.fast_info['last_price']
-    except Exception as e:
-        print(f"Error fetching price for {ticker}: {e}")
-        return None
 
 def process_disclosure(disclosure):
     d_id = disclosure.get('disclosureIndex')
@@ -81,7 +70,7 @@ def monitor_kap(once=False):
 
     while True:
         try:
-            resp = requests.get(KAP_API_URL)
+            resp = requests.get(KAP_API_URL, timeout=15)
             if resp.status_code == 200:
                 disclosures = resp.json()
                 new_items = []

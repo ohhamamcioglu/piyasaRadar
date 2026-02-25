@@ -1,0 +1,104 @@
+﻿2026-02-24T08:09:50.9373905Z ##[group]Run pip install requests beautifulsoup4 yfinance pandas lxml
+2026-02-24T08:09:50.9374470Z [36;1mpip install requests beautifulsoup4 yfinance pandas lxml[0m
+2026-02-24T08:09:50.9464870Z shell: /usr/bin/bash -e {0}
+2026-02-24T08:09:50.9465131Z env:
+2026-02-24T08:09:50.9465395Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T08:09:50.9465873Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.12/x64/lib/pkgconfig
+2026-02-24T08:09:50.9466310Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T08:09:50.9466708Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T08:09:50.9467076Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.12/x64
+2026-02-24T08:09:50.9467468Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.12/x64/lib
+2026-02-24T08:09:50.9467776Z ##[endgroup]
+2026-02-24T08:09:53.6985972Z Collecting requests
+2026-02-24T08:09:53.8179403Z   Downloading requests-2.32.5-py3-none-any.whl.metadata (4.9 kB)
+2026-02-24T08:09:53.8548055Z Collecting beautifulsoup4
+2026-02-24T08:09:53.8739978Z   Downloading beautifulsoup4-4.14.3-py3-none-any.whl.metadata (3.8 kB)
+2026-02-24T08:09:53.9210886Z Collecting yfinance
+2026-02-24T08:09:53.9401058Z   Downloading yfinance-1.2.0-py2.py3-none-any.whl.metadata (6.1 kB)
+2026-02-24T08:09:54.1006631Z Collecting pandas
+2026-02-24T08:09:54.1194712Z   Downloading pandas-3.0.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (79 kB)
+2026-02-24T08:09:54.3606583Z Collecting lxml
+2026-02-24T08:09:54.3798688Z   Downloading lxml-6.0.2-cp312-cp312-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl.metadata (3.6 kB)
+2026-02-24T08:09:54.4668767Z Collecting charset_normalizer<4,>=2 (from requests)
+2026-02-24T08:09:54.4858500Z   Downloading charset_normalizer-3.4.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (37 kB)
+2026-02-24T08:09:54.5373375Z Collecting idna<4,>=2.5 (from requests)
+2026-02-24T08:09:54.5565616Z   Downloading idna-3.11-py3-none-any.whl.metadata (8.4 kB)
+2026-02-24T08:09:55.0316922Z Collecting urllib3<3,>=1.21.1 (from requests)
+2026-02-24T08:09:55.0504462Z   Downloading urllib3-2.6.3-py3-none-any.whl.metadata (6.9 kB)
+2026-02-24T08:09:55.0838912Z Collecting certifi>=2017.4.17 (from requests)
+2026-02-24T08:09:55.1025177Z   Downloading certifi-2026.1.4-py3-none-any.whl.metadata (2.5 kB)
+2026-02-24T08:09:55.1341621Z Collecting soupsieve>=1.6.1 (from beautifulsoup4)
+2026-02-24T08:09:55.1527353Z   Downloading soupsieve-2.8.3-py3-none-any.whl.metadata (4.6 kB)
+2026-02-24T08:09:55.1851282Z Collecting typing-extensions>=4.0.0 (from beautifulsoup4)
+2026-02-24T08:09:55.2037143Z   Downloading typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+2026-02-24T08:09:55.3904329Z Collecting numpy>=1.16.5 (from yfinance)
+2026-02-24T08:09:55.4094938Z   Downloading numpy-2.4.2-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+2026-02-24T08:09:55.4380257Z Collecting multitasking>=0.0.7 (from yfinance)
+2026-02-24T08:09:55.4568903Z   Downloading multitasking-0.0.12.tar.gz (19 kB)
+2026-02-24T08:09:55.4648646Z   Installing build dependencies: started
+2026-02-24T08:09:56.8591709Z   Installing build dependencies: finished with status 'done'
+2026-02-24T08:09:56.8597637Z   Getting requirements to build wheel: started
+2026-02-24T08:09:57.2664820Z   Getting requirements to build wheel: finished with status 'done'
+2026-02-24T08:09:57.2673194Z   Preparing metadata (pyproject.toml): started
+2026-02-24T08:09:57.4620178Z   Preparing metadata (pyproject.toml): finished with status 'done'
+2026-02-24T08:09:57.4966373Z Collecting platformdirs>=2.0.0 (from yfinance)
+2026-02-24T08:09:57.5156993Z   Downloading platformdirs-4.9.2-py3-none-any.whl.metadata (4.7 kB)
+2026-02-24T08:09:57.5629777Z Collecting pytz>=2022.5 (from yfinance)
+2026-02-24T08:09:57.5818700Z   Downloading pytz-2025.2-py2.py3-none-any.whl.metadata (22 kB)
+2026-02-24T08:09:57.6374804Z Collecting frozendict>=2.3.4 (from yfinance)
+2026-02-24T08:09:57.6561447Z   Downloading frozendict-2.4.7-py3-none-any.whl.metadata (23 kB)
+2026-02-24T08:09:57.6903734Z Collecting peewee>=3.16.2 (from yfinance)
+2026-02-24T08:09:57.7089471Z   Downloading peewee-4.0.0-py3-none-any.whl.metadata (8.1 kB)
+2026-02-24T08:09:57.7906505Z Collecting curl_cffi<0.14,>=0.7 (from yfinance)
+2026-02-24T08:09:57.8094261Z   Downloading curl_cffi-0.13.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (13 kB)
+2026-02-24T08:09:57.9683016Z Collecting protobuf>=3.19.0 (from yfinance)
+2026-02-24T08:09:57.9872352Z   Downloading protobuf-6.33.5-cp39-abi3-manylinux2014_x86_64.whl.metadata (593 bytes)
+2026-02-24T08:09:58.0808693Z Collecting websockets>=13.0 (from yfinance)
+2026-02-24T08:09:58.0997380Z   Downloading websockets-16.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (6.8 kB)
+2026-02-24T08:09:58.2074333Z Collecting cffi>=1.12.0 (from curl_cffi<0.14,>=0.7->yfinance)
+2026-02-24T08:09:58.2262604Z   Downloading cffi-2.0.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.6 kB)
+2026-02-24T08:09:58.2588221Z Collecting python-dateutil>=2.8.2 (from pandas)
+2026-02-24T08:09:58.2775647Z   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+2026-02-24T08:09:58.3054114Z Collecting pycparser (from cffi>=1.12.0->curl_cffi<0.14,>=0.7->yfinance)
+2026-02-24T08:09:58.3243331Z   Downloading pycparser-3.0-py3-none-any.whl.metadata (8.2 kB)
+2026-02-24T08:09:58.3548729Z Collecting six>=1.5 (from python-dateutil>=2.8.2->pandas)
+2026-02-24T08:09:58.3737088Z   Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+2026-02-24T08:09:58.3978531Z Downloading requests-2.32.5-py3-none-any.whl (64 kB)
+2026-02-24T08:09:58.4231776Z Downloading charset_normalizer-3.4.4-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (153 kB)
+2026-02-24T08:09:58.4613277Z Downloading idna-3.11-py3-none-any.whl (71 kB)
+2026-02-24T08:09:58.4834601Z Downloading urllib3-2.6.3-py3-none-any.whl (131 kB)
+2026-02-24T08:09:58.5076777Z Downloading beautifulsoup4-4.14.3-py3-none-any.whl (107 kB)
+2026-02-24T08:09:58.5307982Z Downloading yfinance-1.2.0-py2.py3-none-any.whl (130 kB)
+2026-02-24T08:09:58.5550896Z Downloading curl_cffi-0.13.0-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (8.3 MB)
+2026-02-24T08:09:58.6495722Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 94.3 MB/s  0:00:00
+2026-02-24T08:09:58.6687219Z Downloading pandas-3.0.1-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (10.9 MB)
+2026-02-24T08:09:58.7386568Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.9/10.9 MB 157.6 MB/s  0:00:00
+2026-02-24T08:09:58.7579935Z Downloading lxml-6.0.2-cp312-cp312-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (5.3 MB)
+2026-02-24T08:09:58.7901341Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.3/5.3 MB 175.0 MB/s  0:00:00
+2026-02-24T08:09:58.8088174Z Downloading certifi-2026.1.4-py3-none-any.whl (152 kB)
+2026-02-24T08:09:58.8305882Z Downloading cffi-2.0.0-cp312-cp312-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (219 kB)
+2026-02-24T08:09:58.8526535Z Downloading frozendict-2.4.7-py3-none-any.whl (16 kB)
+2026-02-24T08:09:58.8743966Z Downloading numpy-2.4.2-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.6 MB)
+2026-02-24T08:09:58.9726444Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.6/16.6 MB 170.8 MB/s  0:00:00
+2026-02-24T08:09:58.9914732Z Downloading peewee-4.0.0-py3-none-any.whl (139 kB)
+2026-02-24T08:09:59.0128530Z Downloading platformdirs-4.9.2-py3-none-any.whl (21 kB)
+2026-02-24T08:09:59.0340438Z Downloading protobuf-6.33.5-cp39-abi3-manylinux2014_x86_64.whl (323 kB)
+2026-02-24T08:09:59.0564926Z Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+2026-02-24T08:09:59.0781579Z Downloading pytz-2025.2-py2.py3-none-any.whl (509 kB)
+2026-02-24T08:09:59.1006924Z Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+2026-02-24T08:09:59.1215843Z Downloading soupsieve-2.8.3-py3-none-any.whl (37 kB)
+2026-02-24T08:09:59.1426367Z Downloading typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+2026-02-24T08:09:59.1639845Z Downloading websockets-16.0-cp312-cp312-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (184 kB)
+2026-02-24T08:09:59.1853759Z Downloading pycparser-3.0-py3-none-any.whl (48 kB)
+2026-02-24T08:09:59.2529530Z Building wheels for collected packages: multitasking
+2026-02-24T08:09:59.2593794Z   Building wheel for multitasking (pyproject.toml): started
+2026-02-24T08:09:59.4726215Z   Building wheel for multitasking (pyproject.toml): finished with status 'done'
+2026-02-24T08:09:59.4733262Z   Created wheel for multitasking: filename=multitasking-0.0.12-py3-none-any.whl size=15635 sha256=e3913f8410782459e21c075d43be1e0d301ef54ab6bba187806415b714ae75b9
+2026-02-24T08:09:59.4735057Z   Stored in directory: /home/runner/.cache/pip/wheels/cc/bd/6f/664d62c99327abeef7d86489e6631cbf45b56fbf7ef1d6ef00
+2026-02-24T08:09:59.4762027Z Successfully built multitasking
+2026-02-24T08:09:59.5372118Z Installing collected packages: pytz, peewee, multitasking, websockets, urllib3, typing-extensions, soupsieve, six, pycparser, protobuf, platformdirs, numpy, lxml, idna, frozendict, charset_normalizer, certifi, requests, python-dateutil, cffi, beautifulsoup4, pandas, curl_cffi, yfinance
+2026-02-24T08:10:07.5313784Z 
+2026-02-24T08:10:07.5340626Z Successfully installed beautifulsoup4-4.14.3 certifi-2026.1.4 cffi-2.0.0 charset_normalizer-3.4.4 curl_cffi-0.13.0 frozendict-2.4.7 idna-3.11 lxml-6.0.2 multitasking-0.0.12 numpy-2.4.2 pandas-3.0.1 peewee-4.0.0 platformdirs-4.9.2 protobuf-6.33.5 pycparser-3.0 python-dateutil-2.9.0.post0 pytz-2025.2 requests-2.32.5 six-1.17.0 soupsieve-2.8.3 typing-extensions-4.15.0 urllib3-2.6.3 websockets-16.0 yfinance-1.2.0
+2026-02-24T08:10:07.6823189Z 
+2026-02-24T08:10:07.6823773Z [notice] A new release of pip is available: 26.0 -> 26.0.1
+2026-02-24T08:10:07.6824529Z [notice] To update, run: pip install --upgrade pip

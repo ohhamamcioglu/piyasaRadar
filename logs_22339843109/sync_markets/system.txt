@@ -1,0 +1,8 @@
+2026-02-24T06:46:03.9120000Z Requested labels: ubuntu-latest
+2026-02-24T06:46:03.9120000Z Job defined at: ohhamamcioglu/piyasaRadar/.github/workflows/global_sync.yml@refs/heads/main
+2026-02-24T06:46:03.9120000Z Waiting for a runner to pick up this job...
+2026-02-24T06:46:03.9110000Z Evaluating sync_markets.if
+2026-02-24T06:46:03.9110000Z Evaluating: success()
+2026-02-24T06:46:03.9110000Z Result: true
+2026-02-24T06:46:04.4080000Z Job is waiting for a hosted runner to come online.
+2026-02-24T06:46:04.4090000Z Job is about to start running on the hosted runner: GitHub Actions 1000000233

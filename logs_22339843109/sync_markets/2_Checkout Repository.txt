@@ -1,0 +1,108 @@
+﻿2026-02-24T06:46:07.8487695Z ##[group]Run actions/checkout@v4
+2026-02-24T06:46:07.8488557Z with:
+2026-02-24T06:46:07.8488975Z   repository: ohhamamcioglu/piyasaRadar
+2026-02-24T06:46:07.8489647Z   token: ***
+2026-02-24T06:46:07.8490029Z   ssh-strict: true
+2026-02-24T06:46:07.8490413Z   ssh-user: git
+2026-02-24T06:46:07.8490800Z   persist-credentials: true
+2026-02-24T06:46:07.8491236Z   clean: true
+2026-02-24T06:46:07.8491625Z   sparse-checkout-cone-mode: true
+2026-02-24T06:46:07.8492103Z   fetch-depth: 1
+2026-02-24T06:46:07.8492475Z   fetch-tags: false
+2026-02-24T06:46:07.8492867Z   show-progress: true
+2026-02-24T06:46:07.8493413Z   lfs: false
+2026-02-24T06:46:07.8493785Z   submodules: false
+2026-02-24T06:46:07.8494177Z   set-safe-directory: true
+2026-02-24T06:46:07.8494832Z ##[endgroup]
+2026-02-24T06:46:07.9607490Z Syncing repository: ohhamamcioglu/piyasaRadar
+2026-02-24T06:46:07.9610418Z ##[group]Getting Git version info
+2026-02-24T06:46:07.9611689Z Working directory is '/home/runner/work/piyasaRadar/piyasaRadar'
+2026-02-24T06:46:07.9613707Z [command]/usr/bin/git version
+2026-02-24T06:46:07.9669506Z git version 2.52.0
+2026-02-24T06:46:07.9696505Z ##[endgroup]
+2026-02-24T06:46:07.9712048Z Temporarily overriding HOME='/home/runner/work/_temp/d4d351d6-4e1a-4242-ab5e-13fdb4879594' before making global git config changes
+2026-02-24T06:46:07.9714659Z Adding repository directory to the temporary git global config as a safe directory
+2026-02-24T06:46:07.9725792Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/piyasaRadar/piyasaRadar
+2026-02-24T06:46:07.9761901Z Deleting the contents of '/home/runner/work/piyasaRadar/piyasaRadar'
+2026-02-24T06:46:07.9765928Z ##[group]Initializing the repository
+2026-02-24T06:46:07.9770713Z [command]/usr/bin/git init /home/runner/work/piyasaRadar/piyasaRadar
+2026-02-24T06:46:07.9859126Z hint: Using 'master' as the name for the initial branch. This default branch name
+2026-02-24T06:46:07.9860600Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+2026-02-24T06:46:07.9861841Z hint: to use in all of your new repositories, which will suppress this warning,
+2026-02-24T06:46:07.9863396Z hint: call:
+2026-02-24T06:46:07.9863797Z hint:
+2026-02-24T06:46:07.9864811Z hint: 	git config --global init.defaultBranch <name>
+2026-02-24T06:46:07.9865851Z hint:
+2026-02-24T06:46:07.9866837Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+2026-02-24T06:46:07.9868450Z hint: 'development'. The just-created branch can be renamed via this command:
+2026-02-24T06:46:07.9869768Z hint:
+2026-02-24T06:46:07.9870451Z hint: 	git branch -m <name>
+2026-02-24T06:46:07.9871172Z hint:
+2026-02-24T06:46:07.9872146Z hint: Disable this message with "git config set advice.defaultBranchName false"
+2026-02-24T06:46:07.9874200Z Initialized empty Git repository in /home/runner/work/piyasaRadar/piyasaRadar/.git/
+2026-02-24T06:46:07.9877081Z [command]/usr/bin/git remote add origin https://github.com/ohhamamcioglu/piyasaRadar
+2026-02-24T06:46:07.9908986Z ##[endgroup]
+2026-02-24T06:46:07.9910224Z ##[group]Disabling automatic garbage collection
+2026-02-24T06:46:07.9914080Z [command]/usr/bin/git config --local gc.auto 0
+2026-02-24T06:46:07.9942342Z ##[endgroup]
+2026-02-24T06:46:07.9943747Z ##[group]Setting up auth
+2026-02-24T06:46:07.9950003Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+2026-02-24T06:46:07.9980562Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+2026-02-24T06:46:08.0305482Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-02-24T06:46:08.0336431Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+2026-02-24T06:46:08.0555249Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-02-24T06:46:08.0585936Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+2026-02-24T06:46:08.0820833Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+2026-02-24T06:46:08.0857606Z ##[endgroup]
+2026-02-24T06:46:08.0860519Z ##[group]Fetching the repository
+2026-02-24T06:46:08.0868056Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +3a0133edd5d13940ee296a06c10bb3377cd98e53:refs/remotes/origin/main
+2026-02-24T06:46:14.0582898Z From https://github.com/ohhamamcioglu/piyasaRadar
+2026-02-24T06:46:14.0584405Z  * [new ref]         3a0133edd5d13940ee296a06c10bb3377cd98e53 -> origin/main
+2026-02-24T06:46:14.0616564Z ##[endgroup]
+2026-02-24T06:46:14.0619368Z ##[group]Determining the checkout info
+2026-02-24T06:46:14.0620769Z ##[endgroup]
+2026-02-24T06:46:14.0625407Z [command]/usr/bin/git sparse-checkout disable
+2026-02-24T06:46:14.0667795Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+2026-02-24T06:46:14.0694873Z ##[group]Checking out the ref
+2026-02-24T06:46:14.0699376Z [command]/usr/bin/git checkout --progress --force -B main refs/remotes/origin/main
+2026-02-24T06:46:15.0834376Z Updating files:  66% (4947/7461)
+2026-02-24T06:46:15.0878812Z Updating files:  67% (4999/7461)
+2026-02-24T06:46:15.0952121Z Updating files:  68% (5074/7461)
+2026-02-24T06:46:15.1000926Z Updating files:  69% (5149/7461)
+2026-02-24T06:46:15.1058636Z Updating files:  70% (5223/7461)
+2026-02-24T06:46:15.1120749Z Updating files:  71% (5298/7461)
+2026-02-24T06:46:15.1174323Z Updating files:  72% (5372/7461)
+2026-02-24T06:46:15.1228290Z Updating files:  73% (5447/7461)
+2026-02-24T06:46:15.1287097Z Updating files:  74% (5522/7461)
+2026-02-24T06:46:15.1342065Z Updating files:  75% (5596/7461)
+2026-02-24T06:46:15.1402513Z Updating files:  76% (5671/7461)
+2026-02-24T06:46:15.1462653Z Updating files:  77% (5745/7461)
+2026-02-24T06:46:15.1559909Z Updating files:  78% (5820/7461)
+2026-02-24T06:46:15.1631401Z Updating files:  79% (5895/7461)
+2026-02-24T06:46:15.1725943Z Updating files:  80% (5969/7461)
+2026-02-24T06:46:15.1789989Z Updating files:  81% (6044/7461)
+2026-02-24T06:46:15.1852528Z Updating files:  82% (6119/7461)
+2026-02-24T06:46:15.1907864Z Updating files:  83% (6193/7461)
+2026-02-24T06:46:15.1981232Z Updating files:  84% (6268/7461)
+2026-02-24T06:46:15.2104082Z Updating files:  85% (6342/7461)
+2026-02-24T06:46:15.2168477Z Updating files:  86% (6417/7461)
+2026-02-24T06:46:15.2192077Z Updating files:  87% (6492/7461)
+2026-02-24T06:46:15.2220010Z Updating files:  88% (6566/7461)
+2026-02-24T06:46:15.2251500Z Updating files:  89% (6641/7461)
+2026-02-24T06:46:15.2277412Z Updating files:  90% (6715/7461)
+2026-02-24T06:46:15.2305150Z Updating files:  91% (6790/7461)
+2026-02-24T06:46:15.2331219Z Updating files:  92% (6865/7461)
+2026-02-24T06:46:15.2357946Z Updating files:  93% (6939/7461)
+2026-02-24T06:46:15.2382224Z Updating files:  94% (7014/7461)
+2026-02-24T06:46:15.2434731Z Updating files:  95% (7088/7461)
+2026-02-24T06:46:15.2492067Z Updating files:  96% (7163/7461)
+2026-02-24T06:46:15.2548180Z Updating files:  97% (7238/7461)
+2026-02-24T06:46:15.2628803Z Updating files:  98% (7312/7461)
+2026-02-24T06:46:15.2696230Z Updating files:  99% (7387/7461)
+2026-02-24T06:46:15.2696962Z Updating files: 100% (7461/7461)
+2026-02-24T06:46:15.2697558Z Updating files: 100% (7461/7461), done.
+2026-02-24T06:46:15.2782325Z Switched to a new branch 'main'
+2026-02-24T06:46:15.2785935Z branch 'main' set up to track 'origin/main'.
+2026-02-24T06:46:15.2833044Z ##[endgroup]
+2026-02-24T06:46:15.2872231Z [command]/usr/bin/git log -1 --format=%H
+2026-02-24T06:46:15.2895269Z 3a0133edd5d13940ee296a06c10bb3377cd98e53

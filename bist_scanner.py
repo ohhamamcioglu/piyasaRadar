@@ -1,3 +1,4 @@
+import yfinance as yf
 import pandas as pd
 import json
 import time
@@ -5,24 +6,27 @@ import concurrent.futures
 import random
 import os
 from datetime import datetime
-from bist_backtest import run_backtest
 from bist_utils import fetch_bist_tickers, calculate_piotroski, calculate_altman_z, calculate_yasar_erdinc_score, calculate_roe_stability, calculate_magic_formula, calculate_canslim_score, calculate_strategic_radars, calculate_master_score
-
-
 
 
 import midas_client
 import midas_parser
 import midas_engine
+import shared_utils
 
 def get_stock_data(ticker):
     try:
         client = midas_client.MidasClient()
+        # 1. Fetch Midas (Primary Anchor)
         midas_static = client.fetch_static_fundamentals(ticker)
         midas_fins_raw = client.fetch_financial_statements(ticker)
         midas_periods = midas_parser.parse_financials(midas_fins_raw)
         midas_history_1y = client.fetch_historical_chart_data(ticker, "1Y")
         usd_history_1y = client.fetch_historical_chart_data("USDTRY", "1Y")
+        
+        # 2. Fetch yfinance (Secondary Hydration)
+        yf_stock = yf.Ticker(f"{ticker}.IS")
+        yf_info = yf_stock.info
         
         if not midas_static or not midas_periods:
             print(f"Skipping {ticker}: No Midas data.")
@@ -34,77 +38,72 @@ def get_stock_data(ticker):
             
         current = midas_periods[0]
         
-        # Summary dict with all fundamental metrics (Hydrated with Midas)
+        # 3. Sector Mapping (Clean Grouping)
+        raw_midas_sector = midas_static.get('profile', {}).get('sector', "BIST")
+        mapped_sector = shared_utils.map_sector(raw_midas_sector)
+
+        # Summary dict with all fundamental metrics (Hydrated with Midas + yfinance)
         data = {
             "ticker": ticker,
             "name": midas_static.get('name') or ticker,
-            "sector": midas_static.get('profile', {}).get('sector') or "BIST",
-            "industry": midas_static.get('profile', {}).get('industry') or "Unknown",
+            "sector": mapped_sector,
+            "industry": midas_static.get('profile', {}).get('industry') or "Genel",
             "price": midas_static.get('price'),
             "market_cap": midas_static.get('market_cap'),
             
             "valuation": {
-                "pe_trailing": midas_static.get('pe_trailing'),
-                "pe_forward": None, # Midas doesn't always provide forward PE
-                "peg_ratio": None,
-                "pb_ratio": midas_static.get('pb_ratio'),
-                "ev_ebitda": None,
-                "ev_revenue": None,
-                "ps_ratio": None,
+                "pe_trailing": midas_static.get('pe_trailing') or yf_info.get('trailingPE'),
+                "pe_forward": yf_info.get('forwardPE'),
+                "peg_ratio": yf_info.get('pegRatio'),
+                "pb_ratio": midas_static.get('pb_ratio') or yf_info.get('priceToBook'),
+                "ev_ebitda": yf_info.get('enterpriseToEbitda'),
+                "ev_revenue": yf_info.get('enterpriseToRevenue'),
+                "ps_ratio": yf_info.get('priceToSalesTrailing12Months'),
             },
             
             "profitability": {
-                "roe": midas_scores.get('erdinc_roe'),
-                "roa": (current["net_income"] / current["total_assets"]) if current["total_assets"] else None,
-                "net_margin": None,
-                "operating_margin": None,
-                "gross_margin": None,
-                "ebitda_margin": None,
-                "roe_stability": 100, # Default
+                "roe": midas_scores.get('erdinc_roe') or yf_info.get('returnOnEquity'),
+                "roa": current.get("net_margin", 0) * (current.get("revenue", 0) / current.get("total_assets", 1)) if current.get("total_assets") else yf_info.get('returnOnAssets'),
+                "net_margin": current.get("net_margin") or yf_info.get('profitMargins'),
+                "operating_margin": current.get("operating_margin") or yf_info.get('operatingMargins'),
+                "gross_margin": current.get("gross_margin") or yf_info.get('grossMargins'),
+                "ebitda_margin": current.get("ebitda_margin") or yf_info.get('ebitdaMargins'),
+                "roe_stability": 100, 
                 "quarterly_kâr_trendi": [p.get("net_income") for p in midas_periods[:4]][::-1] if len(midas_periods) >= 4 else [p.get("net_income") for p in midas_periods][::-1]
             },
             
             "growth": {
-                "revenue_growth": None,
-                "earnings_growth": None,
-                "earnings_quarterly_growth": None
+                "revenue_growth": current.get("revenue_growth_yoy") or yf_info.get('revenueGrowth'),
+                "earnings_growth": current.get("net_income_growth_yoy") or yf_info.get('earningsGrowth'),
+                "earnings_quarterly_growth": current.get("net_income_growth_qoq") or yf_info.get('earningsQuarterlyGrowth')
             },
             
             "solvency": {
-                "debt_to_equity": None,
-                "current_ratio": None,
-                "quick_ratio": None,
+                "debt_to_equity": current.get("debt_to_equity") or yf_info.get('debtToEquity'),
+                "current_ratio": current.get("current_ratio") or yf_info.get('currentRatio'),
+                "quick_ratio": yf_info.get('quickRatio'),
                 "interest_coverage": None
             },
             
             "dividends_performance": {
-                "dividend_yield": midas_static.get('dividend_yield'),
-                "payout_ratio": None,
-                "beta": None,
-                "52w_high": None,
-                "52w_low": None
+                "dividend_yield": midas_static.get('dividend_yield') or yf_info.get('dividendYield'),
+                "payout_ratio": yf_info.get('payoutRatio'),
+                "beta": yf_info.get('beta'),
+                "52w_high": yf_info.get('fiftyTwoWeekHigh'),
+                "52w_low": yf_info.get('fiftyTwoWeekLow')
             },
 
             "cash_flow": {
-                "free_cash_flow": current["operating_cash_flow"], # Proxy
-                "operating_cash_flow": current["operating_cash_flow"],
-                "price_to_free_cash_flow": None
-            },
-
-            "targets_consensus": {
-                "target_high": None,
-                "target_low": None,
-                "target_mean": None,
-                "target_median": None,
-                "recommendation": None,
-                "number_of_analysts": None
+                "free_cash_flow": yf_info.get('freeCashflow') or current.get("operating_cash_flow"), 
+                "operating_cash_flow": current.get("operating_cash_flow") or yf_info.get('operatingCashflow'),
+                "price_to_free_cash_flow": yf_info.get('marketCap') / yf_info.get('freeCashflow') if (yf_info.get('marketCap') and yf_info.get('freeCashflow')) else None
             },
 
             "efficiency": {
-                "revenue_per_employee": None,
-                "revenue_per_share": None,
-                "asset_turnover": (current["revenue"] / current["total_assets"]) if current.get("total_assets") else None,
-                "operating_income": current["operating_income"]
+                "revenue_per_employee": (yf_info.get('totalRevenue') / yf_info.get('fullTimeEmployees')) if (yf_info.get('totalRevenue') and yf_info.get('fullTimeEmployees')) else None,
+                "revenue_per_share": yf_info.get('revenuePerShare'),
+                "asset_turnover": current.get("asset_turnover") or (yf_info.get('totalRevenue') / yf_info.get('totalAssets')) if yf_info.get('totalAssets') else None,
+                "operating_income": current.get("operating_income")
             }
         }
         
