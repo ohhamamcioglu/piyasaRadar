@@ -1,86 +1,85 @@
 {
-    "last_updated": "2026-02-24T11:09:43.308252",
+    "last_updated": "2026-03-10T16:55:08.072235",
     "holdings": [
         {
-            "ticker": "TSM",
-            "name": "Taiwan Semiconductor Manufacturing Company Limited",
-            "score": 70.9,
-            "price": 370.04,
-            "sector": "Technology"
+            "ticker": "A",
+            "name": "Agilent Technologies, Inc.",
+            "score": 15.0,
+            "price": 114.835,
+            "sector": "Sağlık"
         },
         {
-            "ticker": "GFI",
-            "name": "Gold Fields Limited",
-            "score": 66.9,
-            "price": 56.98,
-            "sector": "Basic Materials"
+            "ticker": "AAPL",
+            "name": "Apple Inc.",
+            "score": 15.0,
+            "price": 259.115,
+            "sector": "Teknoloji"
         },
         {
-            "ticker": "EIX",
-            "name": "Edison International",
-            "score": 65.7,
-            "price": 74.65,
-            "sector": "Utilities"
+            "ticker": "ABBV",
+            "name": "AbbVie Inc.",
+            "score": 15.0,
+            "price": 230.08,
+            "sector": "Sağlık"
         },
         {
-            "ticker": "THC",
-            "name": "Tenet Healthcare Corporation",
-            "score": 64.3,
-            "price": 233.77,
-            "sector": "Healthcare"
+            "ticker": "ABEV",
+            "name": "Ambev S.A.",
+            "score": 15.0,
+            "price": 2.985,
+            "sector": "Perakende / Ticaret"
         },
         {
-            "ticker": "CF",
-            "name": "CF Industries Holdings, Inc.",
-            "score": 63.5,
-            "price": 95.45,
-            "sector": "Basic Materials"
+            "ticker": "ABNB",
+            "name": "Airbnb, Inc.",
+            "score": 15.0,
+            "price": 131.575,
+            "sector": "Sanayi / Diğer"
         },
         {
-            "ticker": "LRCX",
-            "name": "Lam Research Corporation",
-            "score": 63.5,
-            "price": 242.27,
-            "sector": "Technology"
+            "ticker": "ABT",
+            "name": "Abbott Laboratories",
+            "score": 15.0,
+            "price": 111.32,
+            "sector": "Sağlık"
         },
         {
-            "ticker": "NVDA",
-            "name": "NVIDIA Corporation",
-            "score": 63.4,
-            "price": 191.55,
-            "sector": "Technology"
+            "ticker": "ACGL",
+            "name": "Arch Capital Group Ltd.",
+            "score": 15.0,
+            "price": 95.47,
+            "sector": "Finans / Holding"
         },
         {
-            "ticker": "FIX",
-            "name": "Comfort Systems USA, Inc.",
-            "score": 63.2,
-            "price": 1413.57,
-            "sector": "Industrials"
+            "ticker": "ACM",
+            "name": "AECOM",
+            "score": 15.0,
+            "price": 93.63,
+            "sector": "Sanayi / Diğer"
         },
         {
-            "ticker": "AEM",
-            "name": "Agnico Eagle Mines Limited",
-            "score": 62.9,
-            "price": 240.49,
-            "sector": "Basic Materials"
+            "ticker": "ACN",
+            "name": "Accenture plc",
+            "score": 15.0,
+            "price": 203.2,
+            "sector": "Teknoloji"
         },
         {
-            "ticker": "ENB",
-            "name": "Enbridge Inc.",
-            "score": 62.2,
-            "price": 52.35,
-            "sector": "Energy"
+            "ticker": "ADBE",
+            "name": "Adobe Inc.",
+            "score": 15.0,
+            "price": 275.63,
+            "sector": "Teknoloji"
         }
     ],
     "summary": {
-        "avg_score": 64.65,
+        "avg_score": 15.0,
         "sectors": {
-            "Technology": 3,
-            "Basic Materials": 3,
-            "Utilities": 1,
-            "Healthcare": 1,
-            "Industrials": 1,
-            "Energy": 1
+            "Sağlık": 3,
+            "Teknoloji": 3,
+            "Perakende / Ticaret": 1,
+            "Sanayi / Diğer": 2,
+            "Finans / Holding": 1
         }
     }
 }

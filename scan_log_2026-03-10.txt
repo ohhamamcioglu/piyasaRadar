@@ -1,0 +1,540 @@
+========================================
+Tarama Başladı: Tue Mar 10 09:01:02 AM +03 2026
+========================================
+[1/3] BIST Taraması başlıyor...
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ADLVY.IS"}}}
+Scanning 678 stocks (Including 0 missing new scores)...
+Starting parallel scan with 1 workers...
+Error fetching chunk ['2025-12', '2025-9', '2025-6', '2025-3'] for A1YEN: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Error for A1YEN: Failed to perform, curl: (28) Connection timed out after 30001 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for ACSEL: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for ADEL: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for ADESE: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for ADGYO: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Failed to fetch ADLVY HTML: Status 404
+Error for ADLVY: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for AEFES: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for AFYON: Failed to perform, curl: (28) Operation timed out after 30001 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for AGESA: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for AGHOL: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Progress: 0/678 (Checkpoint Saved)
+Error for AGROT: Failed to perform, curl: (28) Operation timed out after 30001 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for AGYO: Failed to perform, curl: (28) Operation timed out after 30001 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for AHGAZ: Failed to perform, curl: (28) Operation timed out after 30001 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for AHSGY: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for AKBNK: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Failed to fetch AKCKM HTML: Status 404
+Error for AKCKM: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for AKCNS: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Failed to fetch AKCVR HTML: Status 404
+Error for AKCVR: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Failed to fetch AKDFA HTML: Status 404
+Error for AKDFA: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for AKENR: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Progress: 0/678 (Checkpoint Saved)
+Error for AKFGY: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for AKFIS: Failed to perform, curl: (28) Operation timed out after 30001 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Failed to fetch AKFK HTML: Status 404
+Error for AKFK: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for AKFYE: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for AKGRT: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for AKHAN: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for AKMGY: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for AKSA: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error fetching fundamental HTML for AKSEN: HTTPSConnectionPool(host='www.getmidas.com', port=443): Max retries exceeded with url: /canli-borsa/aksen-hisse/ (Caused by NameResolutionError("HTTPSConnection(host='www.getmidas.com', port=443): Failed to resolve 'www.getmidas.com' ([Errno -3] Temporary failure in name resolution)"))
+Error fetching periods for AKSEN: HTTPSConnectionPool(host='www.getmidas.com', port=443): Max retries exceeded with url: /canli-borsa/aksen-hisse/bilanco/ (Caused by NameResolutionError("HTTPSConnection(host='www.getmidas.com', port=443): Failed to resolve 'www.getmidas.com' ([Errno -3] Temporary failure in name resolution)"))
+Error fetching chunk ['2024-12', '2024-9', '2024-6', '2024-3'] for AKSEN: HTTPSConnectionPool(host='www.getmidas.com', port=443): Max retries exceeded with url: /wp-json/midas-api/v1/midas_bilnaco_date?code=AKSEN&date1=2024-12&date2=2024-9&date3=2024-6&date4=2024-3&consildated1=1&consildated2=1&consildated3=1&consildated4=1&bilanco=true (Caused by NameResolutionError("HTTPSConnection(host='www.getmidas.com', port=443): Failed to resolve 'www.getmidas.com' ([Errno -3] Temporary failure in name resolution)"))
+Error fetching chunk ['2023-12', '2023-9', '2023-6', '2023-3'] for AKSEN: HTTPSConnectionPool(host='www.getmidas.com', port=443): Max retries exceeded with url: /wp-json/midas-api/v1/midas_bilnaco_date?code=AKSEN&date1=2023-12&date2=2023-9&date3=2023-6&date4=2023-3&consildated1=1&consildated2=1&consildated3=1&consildated4=1&bilanco=true (Caused by NameResolutionError("HTTPSConnection(host='www.getmidas.com', port=443): Failed to resolve 'www.getmidas.com' ([Errno -3] Temporary failure in name resolution)"))
+Error fetching historical chart data for AKSEN: HTTPSConnectionPool(host='www.getmidas.com', port=443): Max retries exceeded with url: /wp-json/midas-api/v1/midas_stock_time?code=AKSEN&time=1Y (Caused by NameResolutionError("HTTPSConnection(host='www.getmidas.com', port=443): Failed to resolve 'www.getmidas.com' ([Errno -3] Temporary failure in name resolution)"))
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ARSVY.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ATAVK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ATLFA.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BLKOM.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BNPPI.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BRGFK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BRKT.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BSRFK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: CAGFA.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: CLKMT.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: CMSAN.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DFKTR.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DGRVK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DKVRL.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DMLKT.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DNFIN.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DNZEN.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DOGVY.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DRPHN.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DTRND.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DVRLK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: DYBNK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ECZIP.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EKER.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EKOFA.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EKOVR.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EKTVK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EMIRV.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: EMVAR.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ERGLI.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: FAIRF.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GARFL.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GGBVK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: GSIPD.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: HALKF.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: HAYVK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: HDFFL.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: HDFVK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: HLVKS.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: HUZFA.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: INALR.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ISFAK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ISTFK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ISTVY.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KATVK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KFILO.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KLVKS.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KNTFA.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KOCFN.IS"}}}
+Error fetching historical chart data for USDTRY: HTTPSConnectionPool(host='www.getmidas.com', port=443): Max retries exceeded with url: /wp-json/midas-api/v1/midas_stock_time?code=USDTRY&time=1Y (Caused by NameResolutionError("HTTPSConnection(host='www.getmidas.com', port=443): Failed to resolve 'www.getmidas.com' ([Errno -3] Temporary failure in name resolution)"))
+Error for AKSEN: Failed to perform, curl: (28) Operation timed out after 30000 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Failed to fetch AKSFA HTML: Status 404
+Error for AKSFA: Failed to perform, curl: (28) Operation timed out after 30001 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Progress: 0/678 (Checkpoint Saved)
+Error for AKSGY: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for AKSUE: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Failed to fetch AKTVK HTML: Status 404
+Error for AKTVK: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for AKYHO: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for ALARK: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for ALCAR: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for ALCTL: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for ALFAS: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Error for ALGYO: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Failed to fetch ALJF HTML: Status 404
+Error for ALJF: Failed to perform, curl: (28) Operation timed out after 30002 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+Progress: 0/678 (Checkpoint Saved)
+Progress: 10/678 (Checkpoint Saved)
+Failed to fetch ARSVY HTML: Status 404
+Skipping ARSVY: No Midas data.
+Progress: 19/678 (Checkpoint Saved)
+Failed to fetch ATAVK HTML: Status 404
+Skipping ATAVK: No Midas data.
+Progress: 28/678 (Checkpoint Saved)
+Failed to fetch ATLFA HTML: Status 404
+Skipping ATLFA: No Midas data.
+Progress: 37/678 (Checkpoint Saved)
+Error for BALSU: 'str' object has no attribute 'get'
+Progress: 46/678 (Checkpoint Saved)
+Progress: 56/678 (Checkpoint Saved)
+Progress: 66/678 (Checkpoint Saved)
+Failed to fetch BLKOM HTML: Status 404
+Skipping BLKOM: No Midas data.
+Failed to fetch BNPPI HTML: Status 404
+Skipping BNPPI: No Midas data.
+Progress: 74/678 (Checkpoint Saved)
+Failed to fetch BRGFK HTML: Status 404
+Skipping BRGFK: No Midas data.
+Failed to fetch BRKT HTML: Status 404
+Skipping BRKT: No Midas data.
+Error fetching chunk ['2024-12', '2024-9', '2024-6', '2024-3'] for BRMEN: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Progress: 82/678 (Checkpoint Saved)
+Failed to fetch BSRFK HTML: Status 404
+Skipping BSRFK: No Midas data.
+Failed to fetch CAGFA HTML: Status 404
+Skipping CAGFA: No Midas data.
+Progress: 90/678 (Checkpoint Saved)
+Progress: 100/678 (Checkpoint Saved)
+Failed to fetch CLKMT HTML: Status 404
+Skipping CLKMT: No Midas data.
+Failed to fetch CMSAN HTML: Status 404
+Skipping CMSAN: No Midas data.
+Progress: 108/678 (Checkpoint Saved)
+Progress: 118/678 (Checkpoint Saved)
+Failed to fetch DFKTR HTML: Status 404
+Skipping DFKTR: No Midas data.
+Failed to fetch DGRVK HTML: Status 404
+Skipping DGRVK: No Midas data.
+Progress: 126/678 (Checkpoint Saved)
+Failed to fetch DKVRL HTML: Status 404
+Skipping DKVRL: No Midas data.
+Failed to fetch DMLKT HTML: Status 404
+Skipping DMLKT: No Midas data.
+Failed to fetch DNFIN HTML: Status 404
+Skipping DNFIN: No Midas data.
+Failed to fetch DNYVA HTML: Status 404
+Skipping DNYVA: No Midas data.
+Failed to fetch DNZEN HTML: Status 404
+Skipping DNZEN: No Midas data.
+Progress: 131/678 (Checkpoint Saved)
+Error fetching chunk ['2025-12', '2025-9', '2025-6', '2025-3'] for DOGUB: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Failed to fetch DOGVY HTML: Status 404
+Skipping DOGVY: No Midas data.
+Failed to fetch DRPHN HTML: Status 404
+Skipping DRPHN: No Midas data.
+Failed to fetch DTRND HTML: Status 404
+Skipping DTRND: No Midas data.
+Progress: 138/678 (Checkpoint Saved)
+Failed to fetch DVRLK HTML: Status 404
+Error fetching chunk ['2023-12', '2023-9', '2023-6', '2023-3'] for DVRLK: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Skipping DVRLK: No Midas data.
+Failed to fetch DYBNK HTML: Status 404
+Skipping DYBNK: No Midas data.
+Failed to fetch ECZIP HTML: Status 404
+Skipping ECZIP: No Midas data.
+Progress: 145/678 (Checkpoint Saved)
+Error fetching chunk ['2025-12', '2025-9', '2025-6', '2025-3'] for EGEPO: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+Progress: 155/678 (Checkpoint Saved)
+Failed to fetch EKER HTML: Status 404
+Skipping EKER: No Midas data.
+Failed to fetch EKOFA HTML: Status 404
+Skipping EKOFA: No Midas data.
+Failed to fetch EKOVR HTML: Status 404
+Skipping EKOVR: No Midas data.
+Failed to fetch EKTVK HTML: Status 404
+Skipping EKTVK: No Midas data.
+Failed to fetch EMIRV HTML: Status 404
+Skipping EMIRV: No Midas data.
+Progress: 160/678 (Checkpoint Saved)
+Failed to fetch EMVAR HTML: Status 404
+Skipping EMVAR: No Midas data.
+Progress: 169/678 (Checkpoint Saved)
+Failed to fetch ERGLI HTML: Status 404
+Skipping ERGLI: No Midas data.
+Progress: 178/678 (Checkpoint Saved)
+Failed to fetch FAIRF HTML: Status 404
+Skipping FAIRF: No Midas data.
+Progress: 187/678 (Checkpoint Saved)
+Failed to fetch GARFL HTML: Status 404
+Skipping GARFL: No Midas data.
+Progress: 196/678 (Checkpoint Saved)
+Failed to fetch GGBVK HTML: Status 404
+Skipping GGBVK: No Midas data.
+Progress: 205/678 (Checkpoint Saved)
+Progress: 215/678 (Checkpoint Saved)
+Failed to fetch GSIPD HTML: Status 404
+Skipping GSIPD: No Midas data.
+Failed to fetch HALKF HTML: Status 404
+Skipping HALKF: No Midas data.
+Progress: 223/678 (Checkpoint Saved)
+Failed to fetch HAYVK HTML: Status 404
+Skipping HAYVK: No Midas data.
+Failed to fetch HDFFL HTML: Status 404
+Skipping HDFFL: No Midas data.
+Failed to fetch HDFVK HTML: Status 404
+Skipping HDFVK: No Midas data.
+Progress: 230/678 (Checkpoint Saved)
+Failed to fetch HLVKS HTML: Status 404
+Skipping HLVKS: No Midas data.
+Failed to fetch HUZFA HTML: Status 404
+Skipping HUZFA: No Midas data.
+Progress: 238/678 (Checkpoint Saved)
+Failed to fetch INALR HTML: Status 404
+Skipping INALR: No Midas data.
+Progress: 247/678 (Checkpoint Saved)
+Failed to fetch ISFAK HTML: Status 404
+Skipping ISFAK: No Midas data.
+Progress: 256/678 (Checkpoint Saved)
+Failed to fetch ISTFK HTML: Status 404
+Skipping ISTFK: No Midas data.
+Failed to fetch ISTVY HTML: Status 404
+Skipping ISTVY: No Midas data.
+Progress: 264/678 (Checkpoint Saved)
+Failed to fetch KATVK HTML: Status 404
+Skipping KATVK: No Midas data.
+Progress: 273/678 (Checkpoint Saved)
+Failed to fetch KFILO HTML: Status 404
+Skipping KFILO: No Midas data.
+Progress: 282/678 (Checkpoint Saved)
+Failed to fetch KLVKS HTML: Status 404
+Skipping KLVKS: No Midas data.
+Failed to fetch KNTFA HTML: Status 404
+Skipping KNTFA: No Midas data.
+Failed to fetch KOCFN HTML: Status 404
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KORTS.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KSFIN.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KTKVK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: KTSVK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MBFTR.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MINTF.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MNGFA.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MRBKF.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: MRMAG.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: NURVK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: OKTIN.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: OPET.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ORFIN.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: OTOKC.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: OTOSR.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: PRFFK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: QFINF.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: QNBFF.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: QNBVK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: QUFIN.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: QYHOL.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: SARTN.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: SMRFA.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: SZUKI.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TAMFA.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TEBFA.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TEVKS.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TFNVK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TIMUR.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TRKFN.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TRKNT.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TRYKI.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TV8TV.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: VAKVK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: VDFAS.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: VDFLO.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: YKFKT.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZKBVK.IS"}}}
+HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: ZKBVR.IS"}}}
+Skipping KOCFN: No Midas data.
+Progress: 289/678 (Checkpoint Saved)
+Failed to fetch KORTS HTML: Status 404
+Skipping KORTS: No Midas data.
+Progress: 298/678 (Checkpoint Saved)
+Failed to fetch KSFIN HTML: Status 404
+Skipping KSFIN: No Midas data.
+Failed to fetch KTKVK HTML: Status 404
+Skipping KTKVK: No Midas data.
+Failed to fetch KTSVK HTML: Status 404
+Skipping KTSVK: No Midas data.
+Progress: 305/678 (Checkpoint Saved)
+Progress: 315/678 (Checkpoint Saved)
+Progress: 325/678 (Checkpoint Saved)
+Failed to fetch MBFTR HTML: Status 404
+Skipping MBFTR: No Midas data.
+Progress: 334/678 (Checkpoint Saved)
+Progress: 344/678 (Checkpoint Saved)
+Failed to fetch MINTF HTML: Status 404
+Skipping MINTF: No Midas data.
+Failed to fetch MNGFA HTML: Status 404
+Skipping MNGFA: No Midas data.
+Failed to fetch MRBKF HTML: Status 404
+Skipping MRBKF: No Midas data.
+Progress: 351/678 (Checkpoint Saved)
+Failed to fetch MRMAG HTML: Status 404
+Skipping MRMAG: No Midas data.
+Progress: 360/678 (Checkpoint Saved)
+Failed to fetch NURVK HTML: Status 404
+Skipping NURVK: No Midas data.
+Progress: 369/678 (Checkpoint Saved)
+Failed to fetch OKTIN HTML: Status 404
+Skipping OKTIN: No Midas data.
+Failed to fetch OPET HTML: Status 404
+Skipping OPET: No Midas data.
+Failed to fetch ORFIN HTML: Status 404
+Skipping ORFIN: No Midas data.
+Progress: 376/678 (Checkpoint Saved)
+Failed to fetch OTOKC HTML: Status 404
+Skipping OTOKC: No Midas data.
+Failed to fetch OTOSR HTML: Status 404
+Skipping OTOSR: No Midas data.
+Progress: 384/678 (Checkpoint Saved)
+Progress: 394/678 (Checkpoint Saved)
+Progress: 404/678 (Checkpoint Saved)
+Failed to fetch PRFFK HTML: Status 404
+Skipping PRFFK: No Midas data.
+Progress: 413/678 (Checkpoint Saved)
+Failed to fetch QFINF HTML: Status 404
+Skipping QFINF: No Midas data.
+Failed to fetch QNBFF HTML: Status 404
+Skipping QNBFF: No Midas data.
+Failed to fetch QNBVK HTML: Status 404
+Skipping QNBVK: No Midas data.
+Failed to fetch QUFIN HTML: Status 404
+Skipping QUFIN: No Midas data.
+Failed to fetch QYHOL HTML: Status 404
+Skipping QYHOL: No Midas data.
+Progress: 418/678 (Checkpoint Saved)
+Progress: 428/678 (Checkpoint Saved)
+Failed to fetch SARTN HTML: Status 404
+Skipping SARTN: No Midas data.
+Progress: 437/678 (Checkpoint Saved)
+Progress: 447/678 (Checkpoint Saved)
+Failed to fetch SMRFA HTML: Status 404
+Skipping SMRFA: No Midas data.
+Progress: 456/678 (Checkpoint Saved)
+Progress: 466/678 (Checkpoint Saved)
+Failed to fetch SZUKI HTML: Status 404
+Skipping SZUKI: No Midas data.
+Failed to fetch TAMFA HTML: Status 404
+Skipping TAMFA: No Midas data.
+Progress: 474/678 (Checkpoint Saved)
+Failed to fetch TEBFA HTML: Status 404
+Skipping TEBFA: No Midas data.
+Failed to fetch TEVKS HTML: Status 404
+Skipping TEVKS: No Midas data.
+Failed to fetch TFNVK HTML: Status 404
+Skipping TFNVK: No Midas data.
+Failed to fetch TIMUR HTML: Status 404
+Skipping TIMUR: No Midas data.
+Progress: 480/678 (Checkpoint Saved)
+Progress: 490/678 (Checkpoint Saved)
+Failed to fetch TRKFN HTML: Status 404
+Skipping TRKFN: No Midas data.
+Failed to fetch TRKNT HTML: Status 404
+Skipping TRKNT: No Midas data.
+Failed to fetch TRYKI HTML: Status 404
+Skipping TRYKI: No Midas data.
+Progress: 497/678 (Checkpoint Saved)
+Failed to fetch TV8TV HTML: Status 404
+Skipping TV8TV: No Midas data.
+Progress: 506/678 (Checkpoint Saved)
+Progress: 516/678 (Checkpoint Saved)
+Failed to fetch VAKVK HTML: Status 404
+Skipping VAKVK: No Midas data.
+Failed to fetch VDFAS HTML: Status 404
+Skipping VDFAS: No Midas data.
+Failed to fetch VDFLO HTML: Status 404
+Skipping VDFLO: No Midas data.
+Progress: 523/678 (Checkpoint Saved)
+Progress: 533/678 (Checkpoint Saved)
+Failed to fetch YKFIN HTML: Status 404
+Skipping YKFIN: No Midas data.
+Failed to fetch YKFKT HTML: Status 404
+Skipping YKFKT: No Midas data.
+Progress: 541/678 (Checkpoint Saved)
+Failed to fetch ZKBVK HTML: Status 404
+Skipping ZKBVK: No Midas data.
+Failed to fetch ZKBVR HTML: Status 404
+Skipping ZKBVR: No Midas data.
+Calculating relative valuations and scores...
+Calculating sector rankings...
+Generating AI insights...
+Running strategy backtest for report metadata...
+Fetching Macro Indicators (1Y History)...
+Historical snapshot saved: history/bist_data_2026-03-10.json
+Latest data updated: bist_all_data.json
+Error updating file index: cannot import name 'update_file_list' from 'shared_utils' (/home/ohhamamcioglu/Desktop/bistTümBilanco/shared_utils.py)
+Total BIST stocks processed: 547
+BIST Taraması tamamlandı: Tue Mar 10 04:39:06 PM +03 2026
+[2/3] ABD Taraması başlıyor...
+Fetched 702 tickers from Midas.
+Scanning 702 US stocks (Including 0 missing new scores)...
+Starting parallel scan with 1 workers...
+Progress: 10/702 (Checkpoint Saved)
+Progress: 20/702 (Checkpoint Saved)
+Progress: 30/702 (Checkpoint Saved)
+Progress: 40/702 (Checkpoint Saved)
+Progress: 50/702 (Checkpoint Saved)
+Progress: 60/702 (Checkpoint Saved)
+Progress: 70/702 (Checkpoint Saved)
+Progress: 80/702 (Checkpoint Saved)
+Progress: 90/702 (Checkpoint Saved)
+Progress: 100/702 (Checkpoint Saved)
+Progress: 110/702 (Checkpoint Saved)
+Progress: 120/702 (Checkpoint Saved)
+Progress: 130/702 (Checkpoint Saved)
+Progress: 140/702 (Checkpoint Saved)
+Progress: 150/702 (Checkpoint Saved)
+Progress: 160/702 (Checkpoint Saved)
+Progress: 170/702 (Checkpoint Saved)
+Progress: 180/702 (Checkpoint Saved)
+Progress: 190/702 (Checkpoint Saved)
+Progress: 200/702 (Checkpoint Saved)
+Progress: 210/702 (Checkpoint Saved)
+Progress: 220/702 (Checkpoint Saved)
+Progress: 230/702 (Checkpoint Saved)
+Progress: 240/702 (Checkpoint Saved)
+Progress: 250/702 (Checkpoint Saved)
+Progress: 260/702 (Checkpoint Saved)
+Progress: 270/702 (Checkpoint Saved)
+Progress: 280/702 (Checkpoint Saved)
+Progress: 290/702 (Checkpoint Saved)
+Progress: 300/702 (Checkpoint Saved)
+Progress: 310/702 (Checkpoint Saved)
+Progress: 320/702 (Checkpoint Saved)
+Progress: 330/702 (Checkpoint Saved)
+Progress: 340/702 (Checkpoint Saved)
+Progress: 350/702 (Checkpoint Saved)
+Progress: 360/702 (Checkpoint Saved)
+Progress: 370/702 (Checkpoint Saved)
+Progress: 380/702 (Checkpoint Saved)
+Progress: 390/702 (Checkpoint Saved)
+Progress: 400/702 (Checkpoint Saved)
+Progress: 410/702 (Checkpoint Saved)
+Progress: 420/702 (Checkpoint Saved)
+Progress: 430/702 (Checkpoint Saved)
+Progress: 440/702 (Checkpoint Saved)
+Progress: 450/702 (Checkpoint Saved)
+Progress: 460/702 (Checkpoint Saved)
+Progress: 470/702 (Checkpoint Saved)
+Progress: 480/702 (Checkpoint Saved)
+Progress: 490/702 (Checkpoint Saved)
+Progress: 500/702 (Checkpoint Saved)
+Progress: 510/702 (Checkpoint Saved)
+Progress: 520/702 (Checkpoint Saved)
+Progress: 530/702 (Checkpoint Saved)
+Progress: 540/702 (Checkpoint Saved)
+Progress: 550/702 (Checkpoint Saved)
+Progress: 560/702 (Checkpoint Saved)
+Progress: 570/702 (Checkpoint Saved)
+Progress: 580/702 (Checkpoint Saved)
+Progress: 590/702 (Checkpoint Saved)
+Progress: 600/702 (Checkpoint Saved)
+Progress: 610/702 (Checkpoint Saved)
+Progress: 620/702 (Checkpoint Saved)
+Progress: 630/702 (Checkpoint Saved)
+Progress: 640/702 (Checkpoint Saved)
+Progress: 650/702 (Checkpoint Saved)
+Progress: 660/702 (Checkpoint Saved)
+Progress: 670/702 (Checkpoint Saved)
+Progress: 680/702 (Checkpoint Saved)
+Progress: 690/702 (Checkpoint Saved)
+Progress: 700/702 (Checkpoint Saved)
+Calculating relative valuations and scores...
+Calculating sector rankings...
+Generating AI Wall Street Insights...
+Fetching US Macro Indicators (1Y History)...
+Historical snapshot saved: history/midas_data_2026-03-10.json
+Latest data updated: midas_all_data.json
+Error updating file index: cannot import name 'update_file_list' from 'shared_utils' (/home/ohhamamcioglu/Desktop/bistTümBilanco/shared_utils.py)
+Total US stocks processed: 702
+ABD Taraması tamamlandı: Tue Mar 10 04:55:07 PM +03 2026
+[3/4] Portföy Raporları oluşturuluyor...
+
+--- PROCESSING BIST PORTFOLIO ---
+
+=== PORTFOLIO REBALANCE REPORT (2026-03-10) ===
+Strategy: Master Score Top 10
+
+[SELL] - No sales needed.
+
+[BUY] - portfolio is already optimal.
+
+[HOLD] - Staying in Top 10:
+
+Target portfolio saved to bist_portfolio.json
+
+--- PROCESSING US PORTFOLIO ---
+
+=== PORTFOLIO REBALANCE REPORT (2026-03-10) ===
+Strategy: Master Score Top 10
+
+[SELL] - No sales needed.
+
+[BUY] - portfolio is already optimal.
+
+[HOLD] - Staying in Top 10:
+  - A | Score: 15.0
+  - AAPL | Score: 15.0
+  - ABBV | Score: 15.0
+  - ABEV | Score: 15.0
+  - ABNB | Score: 15.0
+  - ABT | Score: 15.0
+  - ACGL | Score: 15.0
+  - ACM | Score: 15.0
+  - ACN | Score: 15.0
+  - ADBE | Score: 15.0
+
+Target portfolio saved to us_portfolio.json
+[4/4] History güncelleniyor...
+Processing BIST Checklist...
+Saved history/bist_data_2026-03-10.json with 541 stocks.
+Processing US Checklist...
+Saved history/midas_data_2026-03-10.json with 700 stocks.
+========================================
+Tüm taramalar tamamlandı: Tue Mar 10 04:55:09 PM +03 2026
+========================================

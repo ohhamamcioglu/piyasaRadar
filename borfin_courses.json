@@ -1,0 +1,142 @@
+{
+    "scraped_at": "2026-03-09T20:07:00+03:00",
+    "total_courses": 17,
+    "courses": [
+        {
+            "id": 1,
+            "title": "PEG Oranına Göre Hisse Senedi Yatırımı",
+            "instructor": "Hünkar İvgen",
+            "category": "Temel Analiz / Değerleme",
+            "priority": "HIGH",
+            "url_pattern": "/tr/courses/[ID]/player"
+        },
+        {
+            "id": 2,
+            "title": "Finansal Modelleme İle Portföy Oluşturma ve Yönetimi",
+            "instructor": "Tuncay Turşucu",
+            "category": "Portföy Yönetimi",
+            "priority": "HIGH",
+            "url_pattern": "/tr/courses/[ID]/player"
+        },
+        {
+            "id": 3,
+            "title": "A'dan Z'ye Yatırımcılık",
+            "instructor": "Yaşar Erdinç",
+            "category": "Genel Yatırım",
+            "priority": "HIGH",
+            "url_pattern": "/tr/courses/[ID]/player"
+        },
+        {
+            "id": 4,
+            "title": "Algoritmik Trading İçin Alternatif Sistemler",
+            "instructor": "Anıl Özekşi",
+            "category": "Algoritmik Trading",
+            "priority": "MEDIUM",
+            "url_pattern": "/tr/courses/[ID]/player"
+        },
+        {
+            "id": 5,
+            "title": "Doğru Portföy Yönetimi",
+            "instructor": "Anıl Özekşi",
+            "category": "Portföy Yönetimi",
+            "priority": "HIGH",
+            "url_pattern": "/tr/courses/[ID]/player"
+        },
+        {
+            "id": 6,
+            "title": "Finansal Özgür Gelecek Kurmak",
+            "instructor": "Mert Başaran",
+            "category": "Kişisel Finans",
+            "priority": "LOW",
+            "url_pattern": "/tr/courses/[ID]/player"
+        },
+        {
+            "id": 7,
+            "title": "Finans ve Muhasebe İçin Excel",
+            "instructor": "Kenan Çılman",
+            "category": "Araçlar",
+            "priority": "LOW",
+            "url_pattern": "/tr/courses/[ID]/player"
+        },
+        {
+            "id": 8,
+            "title": "Yurt Dışı Hisse Senedi Piyasaları",
+            "instructor": "Özgür Hatipoğlu",
+            "category": "US/Global Piyasalar",
+            "priority": "HIGH",
+            "url_pattern": "/tr/courses/[ID]/player"
+        },
+        {
+            "id": 9,
+            "title": "Algoritmik Tradingle Robot Oluşturmak",
+            "instructor": "Anıl Özekşi",
+            "category": "Algoritmik Trading",
+            "priority": "MEDIUM",
+            "url_pattern": "/tr/courses/[ID]/player"
+        },
+        {
+            "id": 10,
+            "title": "Algoritmik Trading Akıllı Robotlar",
+            "instructor": "Anıl Özekşi",
+            "category": "Algoritmik Trading",
+            "priority": "MEDIUM",
+            "url_pattern": "/tr/courses/[ID]/player"
+        },
+        {
+            "id": 11,
+            "title": "Algoritmik Trade",
+            "instructor": "Kıvanç Özbilgiç",
+            "category": "Algoritmik Trading",
+            "priority": "MEDIUM",
+            "url_pattern": "/tr/courses/[ID]/player"
+        },
+        {
+            "id": 12,
+            "title": "Performans Değerlendirme Sürecinde Geri Bildirim Verme Prensipleri",
+            "instructor": "Çağlar Çabuk",
+            "category": "Diğer",
+            "priority": "LOW",
+            "url_pattern": "/tr/courses/[ID]/player"
+        },
+        {
+            "id": 13,
+            "title": "Firma Değerleme ve Finansal Risk Analizi Platformu Kullanımı",
+            "instructor": "Hünkar İvgen",
+            "category": "Temel Analiz / Değerleme",
+            "priority": "HIGH",
+            "url_pattern": "/tr/courses/[ID]/player"
+        },
+        {
+            "id": 14,
+            "title": "Queenstocks Professional Platformu Kullanımı",
+            "instructor": "Hünkar İvgen",
+            "category": "Araçlar",
+            "priority": "MEDIUM",
+            "url_pattern": "/tr/courses/[ID]/player"
+        },
+        {
+            "id": 15,
+            "title": "Borsada Yatırımcı Olmak ve Eğitimin Önemi",
+            "instructor": "Tuncay Turşucu",
+            "category": "Genel Yatırım",
+            "priority": "MEDIUM",
+            "url_pattern": "/tr/courses/[ID]/player"
+        },
+        {
+            "id": 16,
+            "title": "Yabancı Borsalara Yatırım Yapmak",
+            "instructor": "Özgür Hatipoğlu",
+            "category": "US/Global Piyasalar",
+            "priority": "HIGH",
+            "url_pattern": "/tr/courses/[ID]/player"
+        },
+        {
+            "id": 17,
+            "title": "Borsada Fiyat Kazanç Oranına Göre Hisse Senedi Yatırımı",
+            "instructor": "Hünkar İvgen",
+            "category": "Temel Analiz / Değerleme",
+            "priority": "HIGH",
+            "url_pattern": "/tr/courses/[ID]/player"
+        }
+    ]
+}
