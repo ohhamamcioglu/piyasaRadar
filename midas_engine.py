@@ -185,6 +185,43 @@ def calculate_all_scores(static_data, periods_data):
     scores["export_influence"] = min(export_score, 10)
 
     # ==========================
+    # 8. BORFIN STRATEJI & KRIZ KALKANI (Ph 13)
+    # ==========================
+    # 8.1 Kriz Kalkanı (Crisis Shield - Defansif Servet Radarı)
+    # Rule: Current Ratio > 1.5, Debt to Equity < 0.5, Div Yield > 2.0%, P/E < 10
+    cr = current.get("current_ratio") or 0
+    de = current.get("debt_to_equity") or 0
+    dy = static_data.get("dividend_yield") or 0
+    pe = static_data.get("pe_trailing") or 0
+    
+    kriz_kalkani = False
+    if cr > 1.5 and 0 <= de < 0.5 and dy >= 2.0 and 0 < pe < 10:
+        kriz_kalkani = True
+    scores["kriz_kalkani"] = kriz_kalkani
+
+    # 8.2 Borfin PEG Stratejisi (Hünkar İvgen)
+    # Rule: 0 < PEG < 1 is outperformer, 0 < PEG < 0.5 is extreme outperformer (10yr test: 291% over index)
+    ni_growth = current.get("net_income_growth_yoy") or 0
+    peg = 999
+    borfin_peg_score = 0
+    if ni_growth > 0 and pe > 0:
+        peg = pe / (ni_growth * 100) # Assuming growth is decimal, e.g., 0.5 for 50%. So ni_growth * 100 = 50.
+        if 0 < peg <= 0.5:
+            borfin_peg_score = 100
+        elif 0.5 < peg <= 1.0:
+            borfin_peg_score = 50
+    scores["borfin_peg_score"] = borfin_peg_score
+
+    # 8.3 Merdivenimsi Kâr Puanı (Anıl Özekşi - Doğru Portföy Yönetimi)
+    # Rule: 4 quarters strictly increasing = 10 pts, else penalized
+    merdiven_puani = 0
+    if profit_acc: # Q4 > Q3 > Q2 > Q1 (defined above)
+        merdiven_puani = 10
+    elif len(periods_data) >= 3 and periods_data[0]["net_income"] > periods_data[1]["net_income"] > periods_data[2]["net_income"]:
+        merdiven_puani = 7
+    scores["merdiven_puani"] = merdiven_puani
+
+    # ==========================
     # MASTER SCORE CALCULATION
     # ==========================
     master_score = 0
@@ -215,8 +252,16 @@ def calculate_all_scores(static_data, periods_data):
     if real_growth: master_score += 5
     if export_score >= 4: master_score += 5
     
-    # Ph 5.3 DATA PERFECTION BONUS
-    if profit_acc: master_score += 3
+    # Ph 5.3 DATA PERFECTION BONUS & Ph 13 BORFIN BOOST
+    # Merdivenimsi Kar Puanı (Max 5 pts mapped from 10)
+    master_score += (merdiven_puani / 2) 
+    
+    # Kriz Kalkanı Bonus
+    if kriz_kalkani: master_score += 5
+    
+    # Borfin PEG Bonus
+    if borfin_peg_score == 100: master_score += 5
+    elif borfin_peg_score == 50: master_score += 2
         
     scores["master_score"] = int(min(master_score, 100))
 

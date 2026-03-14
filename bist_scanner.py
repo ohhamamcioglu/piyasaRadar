@@ -20,16 +20,9 @@ def get_stock_data(ticker):
         # 1. Fetch Midas (Primary Anchor)
         midas_static = client.fetch_static_fundamentals(ticker)
         midas_fins_raw = client.fetch_financial_statements(ticker)
-        midas_periods = midas_parser.parse_financials(midas_fins_raw)
-        midas_history_1y = client.fetch_historical_chart_data(ticker, "1Y")
-        usd_history_1y = client.fetch_historical_chart_data("USDTRY", "1Y")
         
-        # 2. Fetch yfinance (Secondary Hydration)
-        yf_stock = yf.Ticker(f"{ticker}.IS")
-        yf_info = yf_stock.info
-        
-        if not midas_static or not midas_periods:
-            print(f"Skipping {ticker}: No Midas data.")
+        if not isinstance(midas_static, dict) or not midas_static:
+            print(f"Skipping {ticker}: Invalid midas_static data.")
             return None
             
         midas_scores = midas_engine.calculate_all_scores(midas_static, midas_periods)
@@ -119,6 +112,9 @@ def get_stock_data(ticker):
             "strategic_radars": {"score": midas_scores.get('tursucu_radars')},
             "real_growth": midas_scores.get('real_growth'),
             "export_influence": midas_scores.get('export_influence'),
+            "kriz_kalkani": midas_scores.get('kriz_kalkani'),
+            "borfin_peg_score": midas_scores.get('borfin_peg_score'),
+            "merdiven_puani": midas_scores.get('merdiven_puani'),
             "master_score": midas_scores.get('master_score')
         }
         
@@ -613,7 +609,7 @@ def scan_all_bist():
     # Check if existing results are missing new metrics or history
     tickers_to_update = []
     for r in list(stored_results):
-        if 'scores' not in r or 'real_growth' not in r['scores'] or 'history' not in r or 'quarterly_kâr_trendi' not in r.get('profitability', {}):
+        if 'scores' not in r or 'kriz_kalkani' not in r['scores'] or 'real_growth' not in r['scores'] or 'history' not in r or 'quarterly_kâr_trendi' not in r.get('profitability', {}):
             tickers_to_update.append(r['ticker'])
             # Remove from results to avoid duplicates during re-scan
             results = [x for x in results if x['ticker'] != r['ticker']]
