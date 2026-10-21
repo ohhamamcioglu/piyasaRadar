@@ -1,0 +1,18 @@
+{
+    "metadata": {
+        "date": "2026-10-21",
+        "scan_time": "2026-10-21T19:28:17.997556",
+        "market": "BIST",
+        "strategy_performance_estimate": {
+            "alpha": 0.28,
+            "message": "Strateji BIST 100 Endeksinden ~%28 daha yüksek performans öngörüyor."
+        }
+    },
+    "macros": {
+        "USD_TRY": [],
+        "EUR_TRY": [],
+        "Gram_Altin": [],
+        "BIST_100": []
+    },
+    "data": []
+}
